@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1643px" preserveAspectRatio="none" style="width:2967px;height:1643px;background:#FFFFFF;" version="1.1" viewBox="0 0 2967 1643" width="2967px" zoomAndPan="magnify"><defs><filter height="300%" id="fqv6llntq7z4c" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="271" x="1340.75" y="16.708">Diagrama clases IISSI Friends</text><!--MD5=[ccea80af3ffaca36ffb19a57906186ca]
+class E_Genero--><rect codeLine="3" fill="#FEFECE" filter="url(#fqv6llntq7z4c)" height="117.9609" id="E_Genero" style="stroke:#A80036;stroke-width:1.5;" width="109" x="2510.5" y="53.4531"/><ellipse cx="2525.5" cy="72.4219" fill="#EB937F" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2524.2969,73.2969 L2525.75,73.2969 L2525.75,73.4063 C2525.75,73.8125 2525.7813,73.9688 2525.8594,74.125 C2526.0156,74.375 2526.2969,74.5313 2526.5938,74.5313 C2526.8438,74.5313 2527.1094,74.3906 2527.2656,74.1719 C2527.3906,74.0156 2527.4219,73.8594 2527.4219,73.4063 L2527.4219,71.4844 C2527.4219,71.3281 2527.4219,71.2813 2527.4063,71.125 C2527.3438,70.6563 2527.0313,70.3438 2526.5781,70.3438 C2526.3281,70.3438 2526.0625,70.4844 2525.8906,70.7031 C2525.7813,70.875 2525.75,71.0313 2525.75,71.4844 L2525.75,71.6094 L2524.2969,71.6094 L2524.2969,69.2031 L2528.2813,69.2031 L2528.2813,70.0625 C2528.2813,70.4688 2528.3125,70.6406 2528.3906,70.7969 C2528.5625,71.0469 2528.8438,71.2031 2529.125,71.2031 C2529.3906,71.2031 2529.6563,71.0625 2529.8281,70.8438 C2529.9375,70.6719 2529.9688,70.5313 2529.9688,70.0625 L2529.9688,67.5156 L2522.3438,67.5156 C2521.9063,67.5156 2521.7813,67.5313 2521.625,67.625 C2521.375,67.7813 2521.2188,68.0781 2521.2188,68.3594 C2521.2188,68.6406 2521.3594,68.8906 2521.5781,69.0625 C2521.7344,69.1719 2521.9219,69.2031 2522.3438,69.2031 L2522.5938,69.2031 L2522.5938,75.7188 L2522.3438,75.7188 C2521.9375,75.7188 2521.7813,75.7344 2521.625,75.8438 C2521.375,76.0156 2521.2188,76.2813 2521.2188,76.5781 C2521.2188,76.8438 2521.3594,77.0938 2521.5781,77.25 C2521.7188,77.375 2521.9531,77.4219 2522.3438,77.4219 L2530.3438,77.4219 L2530.3438,74.8438 C2530.3438,74.4063 2530.3125,74.2656 2530.2344,74.1094 C2530.0625,73.8594 2529.7813,73.7031 2529.5,73.7031 C2529.2344,73.7031 2528.9688,73.8125 2528.7969,74.0625 C2528.6875,74.2188 2528.6563,74.3594 2528.6563,74.8438 L2528.6563,75.7188 L2524.2969,75.7188 L2524.2969,73.2969 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="2537.5" y="69.5918">«Enumerate»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="58" x="2549" y="83.5605">E_Genero</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2511.5" x2="2618.5" y1="91.3906" y2="91.3906"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="2516.5" y="105.6011">masculino</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2520.5" y="118.4058"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="55" x="2516.5" y="131.2104">femenino</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2520.5" y="144.0151"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="28" x="2516.5" y="156.8198">otros</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2511.5" x2="2618.5" y1="163.4141" y2="163.4141"/><!--MD5=[840fd59da52fd6771f85f6dea5d37bf8]
+class E_Color_Pelo--><rect codeLine="13" fill="#FEFECE" filter="url(#fqv6llntq7z4c)" height="169.1797" id="E_Color_Pelo" style="stroke:#A80036;stroke-width:1.5;" width="109" x="2654.5" y="27.9531"/><ellipse cx="2669.5" cy="46.9219" fill="#EB937F" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2668.2969,47.7969 L2669.75,47.7969 L2669.75,47.9063 C2669.75,48.3125 2669.7813,48.4688 2669.8594,48.625 C2670.0156,48.875 2670.2969,49.0313 2670.5938,49.0313 C2670.8438,49.0313 2671.1094,48.8906 2671.2656,48.6719 C2671.3906,48.5156 2671.4219,48.3594 2671.4219,47.9063 L2671.4219,45.9844 C2671.4219,45.8281 2671.4219,45.7813 2671.4063,45.625 C2671.3438,45.1563 2671.0313,44.8438 2670.5781,44.8438 C2670.3281,44.8438 2670.0625,44.9844 2669.8906,45.2031 C2669.7813,45.375 2669.75,45.5313 2669.75,45.9844 L2669.75,46.1094 L2668.2969,46.1094 L2668.2969,43.7031 L2672.2813,43.7031 L2672.2813,44.5625 C2672.2813,44.9688 2672.3125,45.1406 2672.3906,45.2969 C2672.5625,45.5469 2672.8438,45.7031 2673.125,45.7031 C2673.3906,45.7031 2673.6563,45.5625 2673.8281,45.3438 C2673.9375,45.1719 2673.9688,45.0313 2673.9688,44.5625 L2673.9688,42.0156 L2666.3438,42.0156 C2665.9063,42.0156 2665.7813,42.0313 2665.625,42.125 C2665.375,42.2813 2665.2188,42.5781 2665.2188,42.8594 C2665.2188,43.1406 2665.3594,43.3906 2665.5781,43.5625 C2665.7344,43.6719 2665.9219,43.7031 2666.3438,43.7031 L2666.5938,43.7031 L2666.5938,50.2188 L2666.3438,50.2188 C2665.9375,50.2188 2665.7813,50.2344 2665.625,50.3438 C2665.375,50.5156 2665.2188,50.7813 2665.2188,51.0781 C2665.2188,51.3438 2665.3594,51.5938 2665.5781,51.75 C2665.7188,51.875 2665.9531,51.9219 2666.3438,51.9219 L2674.3438,51.9219 L2674.3438,49.3438 C2674.3438,48.9063 2674.3125,48.7656 2674.2344,48.6094 C2674.0625,48.3594 2673.7813,48.2031 2673.5,48.2031 C2673.2344,48.2031 2672.9688,48.3125 2672.7969,48.5625 C2672.6875,48.7188 2672.6563,48.8594 2672.6563,49.3438 L2672.6563,50.2188 L2668.2969,50.2188 L2668.2969,47.7969 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="2681.5" y="44.0918">«Enumerate»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="76" x="2684" y="58.0605">E_Color_Pelo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2655.5" x2="2762.5" y1="65.8906" y2="65.8906"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="33" x="2660.5" y="80.1011">negro</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2664.5" y="92.9058"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="44" x="2660.5" y="105.7104">castaño</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2664.5" y="118.5151"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="21" x="2660.5" y="131.3198">rojo</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2664.5" y="144.1245"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="37" x="2660.5" y="156.9292">blanco</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2664.5" y="169.7339"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="20" x="2660.5" y="182.5386">gris</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2655.5" x2="2762.5" y1="189.1328" y2="189.1328"/><!--MD5=[d5726eec84cd7555431da1d97e9637f8]
+class E_Color_Ojos--><rect codeLine="27" fill="#FEFECE" filter="url(#fqv6llntq7z4c)" height="169.1797" id="E_Color_Ojos" style="stroke:#A80036;stroke-width:1.5;" width="111" x="2509.5" y="257.9531"/><ellipse cx="2524.5" cy="276.9219" fill="#EB937F" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2523.2969,277.7969 L2524.75,277.7969 L2524.75,277.9063 C2524.75,278.3125 2524.7813,278.4688 2524.8594,278.625 C2525.0156,278.875 2525.2969,279.0313 2525.5938,279.0313 C2525.8438,279.0313 2526.1094,278.8906 2526.2656,278.6719 C2526.3906,278.5156 2526.4219,278.3594 2526.4219,277.9063 L2526.4219,275.9844 C2526.4219,275.8281 2526.4219,275.7813 2526.4063,275.625 C2526.3438,275.1563 2526.0313,274.8438 2525.5781,274.8438 C2525.3281,274.8438 2525.0625,274.9844 2524.8906,275.2031 C2524.7813,275.375 2524.75,275.5313 2524.75,275.9844 L2524.75,276.1094 L2523.2969,276.1094 L2523.2969,273.7031 L2527.2813,273.7031 L2527.2813,274.5625 C2527.2813,274.9688 2527.3125,275.1406 2527.3906,275.2969 C2527.5625,275.5469 2527.8438,275.7031 2528.125,275.7031 C2528.3906,275.7031 2528.6563,275.5625 2528.8281,275.3438 C2528.9375,275.1719 2528.9688,275.0313 2528.9688,274.5625 L2528.9688,272.0156 L2521.3438,272.0156 C2520.9063,272.0156 2520.7813,272.0313 2520.625,272.125 C2520.375,272.2813 2520.2188,272.5781 2520.2188,272.8594 C2520.2188,273.1406 2520.3594,273.3906 2520.5781,273.5625 C2520.7344,273.6719 2520.9219,273.7031 2521.3438,273.7031 L2521.5938,273.7031 L2521.5938,280.2188 L2521.3438,280.2188 C2520.9375,280.2188 2520.7813,280.2344 2520.625,280.3438 C2520.375,280.5156 2520.2188,280.7813 2520.2188,281.0781 C2520.2188,281.3438 2520.3594,281.5938 2520.5781,281.75 C2520.7188,281.875 2520.9531,281.9219 2521.3438,281.9219 L2529.3438,281.9219 L2529.3438,279.3438 C2529.3438,278.9063 2529.3125,278.7656 2529.2344,278.6094 C2529.0625,278.3594 2528.7813,278.2031 2528.5,278.2031 C2528.2344,278.2031 2527.9688,278.3125 2527.7969,278.5625 C2527.6875,278.7188 2527.6563,278.8594 2527.6563,279.3438 L2527.6563,280.2188 L2523.2969,280.2188 L2523.2969,277.7969 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="2537.5" y="274.0918">«Enumerate»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="79" x="2538.5" y="288.0605">E_Color_Ojos</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2510.5" x2="2619.5" y1="295.8906" y2="295.8906"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="39" x="2515.5" y="310.1011">negros</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2519.5" y="322.9058"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="50" x="2515.5" y="335.7104">castaños</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2519.5" y="348.5151"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="38" x="2515.5" y="361.3198">azules</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2519.5" y="374.1245"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="40" x="2515.5" y="386.9292">verdes</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2519.5" y="399.7339"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="34" x="2515.5" y="412.5386">grises</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2510.5" x2="2619.5" y1="419.1328" y2="419.1328"/><!--MD5=[431e5a1f4a4bcacd3d2db48cbea45452]
+class C_Aficion--><rect codeLine="40" fill="#FEFECE" filter="url(#fqv6llntq7z4c)" height="60.8047" id="C_Aficion" style="stroke:#A80036;stroke-width:1.5;" width="86" x="2025" y="1396.4531"/><ellipse cx="2040" cy="1412.4531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2042.3438,1408.125 C2041.4063,1407.6875 2040.8125,1407.5469 2039.9375,1407.5469 C2037.3125,1407.5469 2035.3125,1409.625 2035.3125,1412.3438 L2035.3125,1413.4688 C2035.3125,1416.0469 2037.4219,1417.9375 2040.3125,1417.9375 C2041.5313,1417.9375 2042.6875,1417.6406 2043.4375,1417.0938 C2044.0156,1416.6875 2044.3438,1416.2344 2044.3438,1415.8438 C2044.3438,1415.3906 2043.9531,1415 2043.4844,1415 C2043.2656,1415 2043.0625,1415.0781 2042.875,1415.2656 C2042.4219,1415.75 2042.4219,1415.75 2042.2344,1415.8438 C2041.8125,1416.1094 2041.125,1416.2344 2040.3594,1416.2344 C2038.3125,1416.2344 2037.0156,1415.1406 2037.0156,1413.4375 L2037.0156,1412.3438 C2037.0156,1410.5625 2038.2656,1409.25 2040,1409.25 C2040.5781,1409.25 2041.1875,1409.4063 2041.6563,1409.6563 C2042.1406,1409.9375 2042.3125,1410.1563 2042.4063,1410.5625 C2042.4688,1410.9688 2042.5,1411.0938 2042.6406,1411.2188 C2042.7813,1411.3594 2043.0156,1411.4688 2043.2344,1411.4688 C2043.5,1411.4688 2043.7656,1411.3281 2043.9375,1411.1094 C2044.0469,1410.9531 2044.0781,1410.7656 2044.0781,1410.3438 L2044.0781,1408.9219 C2044.0781,1408.4844 2044.0625,1408.3594 2043.9688,1408.2031 C2043.8125,1407.9375 2043.5313,1407.7969 2043.2344,1407.7969 C2042.9375,1407.7969 2042.7344,1407.8906 2042.5156,1408.2031 L2042.3438,1408.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="54" x="2054" y="1416.6074">C_Aficion</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2026" x2="2110" y1="1428.4531" y2="1428.4531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="2031" y="1442.6636">Aficion:string</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2026" x2="2110" y1="1449.2578" y2="1449.2578"/><!--MD5=[41b0eb2de4189fb4ee28169a3b480df7]
+class C_Ubicacion--><rect codeLine="44" fill="#FEFECE" filter="url(#fqv6llntq7z4c)" height="143.5703" id="C_Ubicacion" style="stroke:#A80036;stroke-width:1.5;" width="126" x="2118" y="1057.9531"/><ellipse cx="2142.45" cy="1076.9219" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2144.7938,1072.5938 C2143.8563,1072.1563 2143.2625,1072.0156 2142.3875,1072.0156 C2139.7625,1072.0156 2137.7625,1074.0938 2137.7625,1076.8125 L2137.7625,1077.9375 C2137.7625,1080.5156 2139.8719,1082.4063 2142.7625,1082.4063 C2143.9813,1082.4063 2145.1375,1082.1094 2145.8875,1081.5625 C2146.4656,1081.1563 2146.7938,1080.7031 2146.7938,1080.3125 C2146.7938,1079.8594 2146.4031,1079.4688 2145.9344,1079.4688 C2145.7156,1079.4688 2145.5125,1079.5469 2145.325,1079.7344 C2144.8719,1080.2188 2144.8719,1080.2188 2144.6844,1080.3125 C2144.2625,1080.5781 2143.575,1080.7031 2142.8094,1080.7031 C2140.7625,1080.7031 2139.4656,1079.6094 2139.4656,1077.9063 L2139.4656,1076.8125 C2139.4656,1075.0313 2140.7156,1073.7188 2142.45,1073.7188 C2143.0281,1073.7188 2143.6375,1073.875 2144.1063,1074.125 C2144.5906,1074.4063 2144.7625,1074.625 2144.8563,1075.0313 C2144.9188,1075.4375 2144.95,1075.5625 2145.0906,1075.6875 C2145.2313,1075.8281 2145.4656,1075.9375 2145.6844,1075.9375 C2145.95,1075.9375 2146.2156,1075.7969 2146.3875,1075.5781 C2146.4969,1075.4219 2146.5281,1075.2344 2146.5281,1074.8125 L2146.5281,1073.3906 C2146.5281,1072.9531 2146.5125,1072.8281 2146.4188,1072.6719 C2146.2625,1072.4063 2145.9813,1072.2656 2145.6844,1072.2656 C2145.3875,1072.2656 2145.1844,1072.3594 2144.9656,1072.6719 L2144.7938,1072.5938 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="50" x="2170.05" y="1074.0918">«Entity»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="73" x="2158.55" y="1088.0605">C_Ubicacion</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2119" x2="2243" y1="1095.8906" y2="1095.8906"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2128" y="1110.1011"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2128" y="1122.9058"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="114" x="2124" y="1135.7104">codigoPostal:Integer</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2128" y="1148.5151"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="90" x="2124" y="1161.3198">municipio:String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2128" y="1174.1245"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="87" x="2124" y="1186.9292">provincia:String</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2119" x2="2243" y1="1193.5234" y2="1193.5234"/><!--MD5=[c7327a57a368070e276ab223dfd8b8d2]
+class C_Usuario--><rect codeLine="60" fill="#FEFECE" filter="url(#fqv6llntq7z4c)" height="335.6406" id="C_Usuario" style="stroke:#A80036;stroke-width:1.5;" width="132" x="1866" y="503.9531"/><ellipse cx="1899" cy="522.9219" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1901.3438,518.5938 C1900.4063,518.1563 1899.8125,518.0156 1898.9375,518.0156 C1896.3125,518.0156 1894.3125,520.0938 1894.3125,522.8125 L1894.3125,523.9375 C1894.3125,526.5156 1896.4219,528.4063 1899.3125,528.4063 C1900.5313,528.4063 1901.6875,528.1094 1902.4375,527.5625 C1903.0156,527.1563 1903.3438,526.7031 1903.3438,526.3125 C1903.3438,525.8594 1902.9531,525.4688 1902.4844,525.4688 C1902.2656,525.4688 1902.0625,525.5469 1901.875,525.7344 C1901.4219,526.2188 1901.4219,526.2188 1901.2344,526.3125 C1900.8125,526.5781 1900.125,526.7031 1899.3594,526.7031 C1897.3125,526.7031 1896.0156,525.6094 1896.0156,523.9063 L1896.0156,522.8125 C1896.0156,521.0313 1897.2656,519.7188 1899,519.7188 C1899.5781,519.7188 1900.1875,519.875 1900.6563,520.125 C1901.1406,520.4063 1901.3125,520.625 1901.4063,521.0313 C1901.4688,521.4375 1901.5,521.5625 1901.6406,521.6875 C1901.7813,521.8281 1902.0156,521.9375 1902.2344,521.9375 C1902.5,521.9375 1902.7656,521.7969 1902.9375,521.5781 C1903.0469,521.4219 1903.0781,521.2344 1903.0781,520.8125 L1903.0781,519.3906 C1903.0781,518.9531 1903.0625,518.8281 1902.9688,518.6719 C1902.8125,518.4063 1902.5313,518.2656 1902.2344,518.2656 C1901.9375,518.2656 1901.7344,518.3594 1901.5156,518.6719 L1901.3438,518.5938 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="50" x="1922" y="520.0918">«Entity»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="60" x="1917" y="534.0605">C_Usuario</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1867" x2="1997" y1="541.8906" y2="541.8906"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="44" x="1872" y="556.1011">nombre</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="1876" y="568.9058"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="1872" y="581.7104">fecha:Date</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="1876" y="594.5151"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="91" x="1872" y="607.3198">estatura:Integer</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="1876" y="620.1245"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="1872" y="632.9292">peso:Integer</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="1876" y="645.7339"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="100" x="1872" y="658.5386">genero:E_Genero</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="1876" y="671.3433"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="68" x="1872" y="684.1479">email:String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="1876" y="696.9526"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="83" x="1872" y="709.7573">pasword:String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="118" x="1872" y="722.562">estaActivo:BOOLEAN</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="1876" y="735.3667"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="85" x="1872" y="748.1714">fechaAlta:Date</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="1876" y="760.9761"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="1872" y="773.7808">fechaBaja:Date [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="1876" y="786.5854"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="1872" y="799.3901">colorPelo:E_ColorPelo</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="1876" y="812.1948"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="1872" y="824.9995">colorOjo: E_ColorOjos</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1867" x2="1997" y1="831.5938" y2="831.5938"/><!--MD5=[64cf799ac9f43e968c73ac7404ee8fb7]
+class C_Conversacion--><rect codeLine="88" fill="#FEFECE" filter="url(#fqv6llntq7z4c)" height="92.3516" id="C_Conversacion" style="stroke:#A80036;stroke-width:1.5;" width="145" x="765.5" y="1380.9531"/><ellipse cx="788.15" cy="1399.9219" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M790.4938,1395.5938 C789.5563,1395.1563 788.9625,1395.0156 788.0875,1395.0156 C785.4625,1395.0156 783.4625,1397.0938 783.4625,1399.8125 L783.4625,1400.9375 C783.4625,1403.5156 785.5719,1405.4063 788.4625,1405.4063 C789.6813,1405.4063 790.8375,1405.1094 791.5875,1404.5625 C792.1656,1404.1563 792.4938,1403.7031 792.4938,1403.3125 C792.4938,1402.8594 792.1031,1402.4688 791.6344,1402.4688 C791.4156,1402.4688 791.2125,1402.5469 791.025,1402.7344 C790.5719,1403.2188 790.5719,1403.2188 790.3844,1403.3125 C789.9625,1403.5781 789.275,1403.7031 788.5094,1403.7031 C786.4625,1403.7031 785.1656,1402.6094 785.1656,1400.9063 L785.1656,1399.8125 C785.1656,1398.0313 786.4156,1396.7188 788.15,1396.7188 C788.7281,1396.7188 789.3375,1396.875 789.8063,1397.125 C790.2906,1397.4063 790.4625,1397.625 790.5563,1398.0313 C790.6188,1398.4375 790.65,1398.5625 790.7906,1398.6875 C790.9313,1398.8281 791.1656,1398.9375 791.3844,1398.9375 C791.65,1398.9375 791.9156,1398.7969 792.0875,1398.5781 C792.1969,1398.4219 792.2281,1398.2344 792.2281,1397.8125 L792.2281,1396.3906 C792.2281,1395.9531 792.2125,1395.8281 792.1188,1395.6719 C791.9625,1395.4063 791.6813,1395.2656 791.3844,1395.2656 C791.0875,1395.2656 790.8844,1395.3594 790.6656,1395.6719 L790.4938,1395.5938 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="50" x="826.85" y="1397.0918">«Entity»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="96" x="803.85" y="1411.0605">C_Conversacion</text><line style="stroke:#A80036;stroke-width:1.5;" x1="766.5" x2="909.5" y1="1418.8906" y2="1418.8906"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="771.5" y="1433.1011">fecha_inicio: Date</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="119" x="771.5" y="1445.9058">fecha_fin: Date [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="133" x="771.5" y="1458.7104">/new_mensaje:boolean</text><line style="stroke:#A80036;stroke-width:1.5;" x1="766.5" x2="909.5" y1="1465.3047" y2="1465.3047"/><!--MD5=[2644e91207eb597bf73865bd25c99824]
+class C_Mensaje--><rect codeLine="102" fill="#FEFECE" filter="url(#fqv6llntq7z4c)" height="79.5469" id="C_Mensaje" style="stroke:#A80036;stroke-width:1.5;" width="122" x="1207" y="1549.9531"/><ellipse cx="1233.7" cy="1568.9219" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1236.0438,1564.5938 C1235.1063,1564.1563 1234.5125,1564.0156 1233.6375,1564.0156 C1231.0125,1564.0156 1229.0125,1566.0938 1229.0125,1568.8125 L1229.0125,1569.9375 C1229.0125,1572.5156 1231.1219,1574.4063 1234.0125,1574.4063 C1235.2313,1574.4063 1236.3875,1574.1094 1237.1375,1573.5625 C1237.7156,1573.1563 1238.0438,1572.7031 1238.0438,1572.3125 C1238.0438,1571.8594 1237.6531,1571.4688 1237.1844,1571.4688 C1236.9656,1571.4688 1236.7625,1571.5469 1236.575,1571.7344 C1236.1219,1572.2188 1236.1219,1572.2188 1235.9344,1572.3125 C1235.5125,1572.5781 1234.825,1572.7031 1234.0594,1572.7031 C1232.0125,1572.7031 1230.7156,1571.6094 1230.7156,1569.9063 L1230.7156,1568.8125 C1230.7156,1567.0313 1231.9656,1565.7188 1233.7,1565.7188 C1234.2781,1565.7188 1234.8875,1565.875 1235.3563,1566.125 C1235.8406,1566.4063 1236.0125,1566.625 1236.1063,1567.0313 C1236.1688,1567.4375 1236.2,1567.5625 1236.3406,1567.6875 C1236.4813,1567.8281 1236.7156,1567.9375 1236.9344,1567.9375 C1237.2,1567.9375 1237.4656,1567.7969 1237.6375,1567.5781 C1237.7469,1567.4219 1237.7781,1567.2344 1237.7781,1566.8125 L1237.7781,1565.3906 C1237.7781,1564.9531 1237.7625,1564.8281 1237.6688,1564.6719 C1237.5125,1564.4063 1237.2313,1564.2656 1236.9344,1564.2656 C1236.6375,1564.2656 1236.4344,1564.3594 1236.2156,1564.6719 L1236.0438,1564.5938 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="50" x="1257.3" y="1566.0918">«Entity»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="64" x="1250.3" y="1580.0605">C_Mensaje</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1208" x2="1328" y1="1587.8906" y2="1587.8906"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="110" x="1213" y="1602.1011">Instante: DATETIME</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="1213" y="1614.9058">Texto:String</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1208" x2="1328" y1="1621.5" y2="1621.5"/><!--MD5=[a89e3f3131420ba70b44dca9b9685f6d]
+class C_Foto--><rect codeLine="116" fill="#FEFECE" filter="url(#fqv6llntq7z4c)" height="130.7656" id="C_Foto" style="stroke:#A80036;stroke-width:1.5;" width="112" x="2178" y="276.9531"/><ellipse cx="2208.3" cy="295.9219" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2210.6438,291.5938 C2209.7063,291.1563 2209.1125,291.0156 2208.2375,291.0156 C2205.6125,291.0156 2203.6125,293.0938 2203.6125,295.8125 L2203.6125,296.9375 C2203.6125,299.5156 2205.7219,301.4063 2208.6125,301.4063 C2209.8313,301.4063 2210.9875,301.1094 2211.7375,300.5625 C2212.3156,300.1563 2212.6438,299.7031 2212.6438,299.3125 C2212.6438,298.8594 2212.2531,298.4688 2211.7844,298.4688 C2211.5656,298.4688 2211.3625,298.5469 2211.175,298.7344 C2210.7219,299.2188 2210.7219,299.2188 2210.5344,299.3125 C2210.1125,299.5781 2209.425,299.7031 2208.6594,299.7031 C2206.6125,299.7031 2205.3156,298.6094 2205.3156,296.9063 L2205.3156,295.8125 C2205.3156,294.0313 2206.5656,292.7188 2208.3,292.7188 C2208.8781,292.7188 2209.4875,292.875 2209.9563,293.125 C2210.4406,293.4063 2210.6125,293.625 2210.7063,294.0313 C2210.7688,294.4375 2210.8,294.5625 2210.9406,294.6875 C2211.0813,294.8281 2211.3156,294.9375 2211.5344,294.9375 C2211.8,294.9375 2212.0656,294.7969 2212.2375,294.5781 C2212.3469,294.4219 2212.3781,294.2344 2212.3781,293.8125 L2212.3781,292.3906 C2212.3781,291.9531 2212.3625,291.8281 2212.2688,291.6719 C2212.1125,291.4063 2211.8313,291.2656 2211.5344,291.2656 C2211.2375,291.2656 2211.0344,291.3594 2210.8156,291.6719 L2210.6438,291.5938 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="50" x="2223.7" y="293.0918">«Entity»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="41" x="2228.2" y="307.0605">C_Foto</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2179" x2="2289" y1="314.8906" y2="314.8906"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="51" x="2184" y="329.1011">Url:String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2188" y="341.9058"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="2184" y="354.7104">nombre:string</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2188" y="367.5151"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="100" x="2184" y="380.3198">Descripción:string</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="2184" y="393.1245">fecha: Date</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2179" x2="2289" y1="399.7188" y2="399.7188"/><!--MD5=[ac6031f08cca6f233c4a631f8358b423]
+class C_Vinculo_Amistad--><rect codeLine="131" fill="#FEFECE" filter="url(#fqv6llntq7z4c)" height="207.5938" id="C_Vinculo_Amistad" style="stroke:#A80036;stroke-width:1.5;" width="249" x="573.5" y="1025.9531"/><ellipse cx="638.25" cy="1044.9219" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M640.5938,1040.5938 C639.6563,1040.1563 639.0625,1040.0156 638.1875,1040.0156 C635.5625,1040.0156 633.5625,1042.0938 633.5625,1044.8125 L633.5625,1045.9375 C633.5625,1048.5156 635.6719,1050.4063 638.5625,1050.4063 C639.7813,1050.4063 640.9375,1050.1094 641.6875,1049.5625 C642.2656,1049.1563 642.5938,1048.7031 642.5938,1048.3125 C642.5938,1047.8594 642.2031,1047.4688 641.7344,1047.4688 C641.5156,1047.4688 641.3125,1047.5469 641.125,1047.7344 C640.6719,1048.2188 640.6719,1048.2188 640.4844,1048.3125 C640.0625,1048.5781 639.375,1048.7031 638.6094,1048.7031 C636.5625,1048.7031 635.2656,1047.6094 635.2656,1045.9063 L635.2656,1044.8125 C635.2656,1043.0313 636.5156,1041.7188 638.25,1041.7188 C638.8281,1041.7188 639.4375,1041.875 639.9063,1042.125 C640.3906,1042.4063 640.5625,1042.625 640.6563,1043.0313 C640.7188,1043.4375 640.75,1043.5625 640.8906,1043.6875 C641.0313,1043.8281 641.2656,1043.9375 641.4844,1043.9375 C641.75,1043.9375 642.0156,1043.7969 642.1875,1043.5781 C642.2969,1043.4219 642.3281,1043.2344 642.3281,1042.8125 L642.3281,1041.3906 C642.3281,1040.9531 642.3125,1040.8281 642.2188,1040.6719 C642.0625,1040.4063 641.7813,1040.2656 641.4844,1040.2656 C641.1875,1040.2656 640.9844,1040.3594 640.7656,1040.6719 L640.5938,1040.5938 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="50" x="689.25" y="1042.0918">«Entity»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="111" x="658.75" y="1056.0605">C_Vinculo_Amistad</text><line style="stroke:#A80036;stroke-width:1.5;" x1="574.5" x2="821.5" y1="1063.8906" y2="1063.8906"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="119" x="579.5" y="1078.1011">Solicitante:C_Usuario</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="583.5" y="1090.9058"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="118" x="579.5" y="1103.7104">Aceptante:C_Usuario</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="129" x="579.5" y="1116.5151">/VinculoActivo:boolean</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="583.5" y="1129.3198"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="123" x="579.5" y="1142.1245">Fecha_Solicitud: Date</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="583.5" y="1154.9292"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="166" x="579.5" y="1167.7339">Fecha_Aceptacion:Date [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="583.5" y="1180.5386"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="222" x="579.5" y="1193.3433">Fecha_Revocación_Solicitud: Date[0..1]</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="583.5" y="1206.1479"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="237" x="579.5" y="1218.9526">Fecha_Revocación_Aceptacion:Date [0..1]</text><line style="stroke:#A80036;stroke-width:1.5;" x1="574.5" x2="821.5" y1="1225.5469" y2="1225.5469"/><!--MD5=[74312b34ed3fbcb8e9ef19af0a0302ac]
+class C_Ficha_Preferencia--><rect codeLine="149" fill="#FEFECE" filter="url(#fqv6llntq7z4c)" height="348.4453" id="C_Ficha_Preferencia" style="stroke:#A80036;stroke-width:1.5;" width="158" x="2279" y="955.9531"/><ellipse cx="2297.15" cy="974.9219" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2299.4938,970.5938 C2298.5563,970.1563 2297.9625,970.0156 2297.0875,970.0156 C2294.4625,970.0156 2292.4625,972.0938 2292.4625,974.8125 L2292.4625,975.9375 C2292.4625,978.5156 2294.5719,980.4063 2297.4625,980.4063 C2298.6813,980.4063 2299.8375,980.1094 2300.5875,979.5625 C2301.1656,979.1563 2301.4938,978.7031 2301.4938,978.3125 C2301.4938,977.8594 2301.1031,977.4688 2300.6344,977.4688 C2300.4156,977.4688 2300.2125,977.5469 2300.025,977.7344 C2299.5719,978.2188 2299.5719,978.2188 2299.3844,978.3125 C2298.9625,978.5781 2298.275,978.7031 2297.5094,978.7031 C2295.4625,978.7031 2294.1656,977.6094 2294.1656,975.9063 L2294.1656,974.8125 C2294.1656,973.0313 2295.4156,971.7188 2297.15,971.7188 C2297.7281,971.7188 2298.3375,971.875 2298.8063,972.125 C2299.2906,972.4063 2299.4625,972.625 2299.5563,973.0313 C2299.6188,973.4375 2299.65,973.5625 2299.7906,973.6875 C2299.9313,973.8281 2300.1656,973.9375 2300.3844,973.9375 C2300.65,973.9375 2300.9156,973.7969 2301.0875,973.5781 C2301.1969,973.4219 2301.2281,973.2344 2301.2281,972.8125 L2301.2281,971.3906 C2301.2281,970.9531 2301.2125,970.8281 2301.1188,970.6719 C2300.9625,970.4063 2300.6813,970.2656 2300.3844,970.2656 C2300.0875,970.2656 2299.8844,970.3594 2299.6656,970.6719 L2299.4938,970.5938 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="50" x="2346.35" y="972.0918">«Entity»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="119" x="2311.85" y="986.0605">C_Ficha_Preferencia</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2280" x2="2436" y1="993.8906" y2="993.8906"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="122" x="2285" y="1008.1011">Edad_Maxima:Integer</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2289" y="1020.9058"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="2285" y="1033.7104">Edad_minima:Integer</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2289" y="1046.5151"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="123" x="2285" y="1059.3198">Peso_maximo:Integer</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2289" y="1072.1245"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="119" x="2285" y="1084.9292">Peso_minimo:Integer</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2289" y="1097.7339"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="121" x="2285" y="1110.5386">AlturaMaxima:Integer</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2289" y="1123.3433"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="117" x="2285" y="1136.1479">AlturaMinima:Integer</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2289" y="1148.9526"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="126" x="2285" y="1161.7573">ColorPelo: E_ColorPelo</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2289" y="1174.562"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="112" x="2285" y="1187.3667">ColorOjo;E_ColorOjo</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2289" y="1200.1714"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="2285" y="1212.9761">Genero:E_Genero</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2289" y="1225.7808"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="146" x="2285" y="1238.5854">codigoPostal:Integer [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2289" y="1251.3901"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="122" x="2285" y="1264.1948">municipio:String [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="2289" y="1276.9995"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="119" x="2285" y="1289.8042">provincia:String [0..1]</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2280" x2="2436" y1="1296.3984" y2="1296.3984"/><path d="M1481.5,261.9531 L1481.5,423.2813 A0,0 0 0 0 1481.5,423.2813 L1837.2,423.2813 L1870.73,503.7431 L1845.2,423.2813 L2142.5,423.2813 A0,0 0 0 0 2142.5,423.2813 L2142.5,271.9531 L2132.5,261.9531 L1481.5,261.9531 A0,0 0 0 0 1481.5,261.9531 " fill="#FBFB77" filter="url(#fqv6llntq7z4c)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2132.5,261.9531 L2132.5,271.9531 L2142.5,271.9531 L2132.5,261.9531 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="61" x="1492.5" y="279.02">RN-1-0a</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="365" x="1562.5" y="279.02">Todos los datos excepto la feha de baja son obligatorios.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="355" x="1487.5" y="294.1528">Una fecha de baja nula repersentaa un usuario activo y</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="374" x="1491.5" y="309.2856">viceversa un usuario que se ha dado de baja logicamente.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="0" x="1491.5" y="324.4185"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="61" x="1496.5" y="324.4185">RN-1-0b</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="257" x="1566.5" y="324.4185">El peso(kg) y la altura(cm) son positivos</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="0" x="1491.5" y="339.5513"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="60" x="1496.5" y="339.5513">RN-1-0z</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="562" x="1565.5" y="339.5513">Los valores por defectoson 75 kg de peso, 170 cm de altura y el color de pelo es negro.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="0" x="1491.5" y="354.6841"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="51" x="1496.5" y="354.6841">RN-1-1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="570" x="1552.5" y="354.6841">En el momento de alta todos los usuarios registrados deben de ser mayores de 18 años.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="0" x="1491.5" y="369.8169"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="51" x="1496.5" y="369.8169">RN-1-2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="405" x="1556.5" y="369.8169">El email sirve como identificador y por tanto ha de de ser unico</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="0" x="1491.5" y="384.9497"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="50" x="1496.5" y="384.9497">RN-1-3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="361" x="1555.5" y="384.9497">La fecha de alta ha de ser posterior a las de nacimiento,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="397" x="1491.5" y="400.0825">y de existir la fecha de baja debe de ser posterior a la de alta.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="0" x="1491.5" y="415.2153"/><path d="M1992.5,92.4531 L1992.5,132.7188 A0,0 0 0 0 1992.5,132.7188 L2230,132.7188 L2234,276.9331 L2238,132.7188 L2475.5,132.7188 A0,0 0 0 0 2475.5,132.7188 L2475.5,102.4531 L2465.5,92.4531 L1992.5,92.4531 A0,0 0 0 0 1992.5,92.4531 " fill="#FBFB77" filter="url(#fqv6llntq7z4c)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2465.5,92.4531 L2465.5,102.4531 L2475.5,102.4531 L2465.5,92.4531 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="60" x="2003.5" y="109.52">RN-1-0c</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="388" x="2072.5" y="109.52">Es obligatorio que las fotos tengan nombre descripcion y url.</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="51" x="2003.5" y="124.6528">RN-1-4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="392" x="2063.5" y="124.6528">Solo se pueden almacenar un máximo de 5 fotos por usuario</text><path d="M6,606.4531 L6,737.5156 A0,0 0 0 0 6,737.5156 L694,737.5156 L698,1025.6191 L702,737.5156 L1390,737.5156 A0,0 0 0 0 1390,737.5156 L1390,616.4531 L1380,606.4531 L6,606.4531 A0,0 0 0 0 6,606.4531 " fill="#FBFB77" filter="url(#fqv6llntq7z4c)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1380,606.4531 L1380,616.4531 L1390,616.4531 L1380,606.4531 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="61" x="17" y="623.52">RN-2-01</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="297" x="87" y="623.52">La fechade solicitud de amistad es obligatoria.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="939" x="12" y="638.6528">Si se ha aceptado el vinculo (fechade aceptación cumplimentada), entonces la fecha de aceptación en posterior a la de solicitud del otro contacto.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="773" x="12" y="653.7856">Si el solicitante revoca la amistad(fecha revocacion solicitud cumplimentada). entonces ha de ser posterior a la solicitud.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="851" x="12" y="668.9185">Si el aceptante revoca la amistad(fecha revocacion aceptacion cumplimentada) entonces ese instante sea posterior a la aceptación.</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="60" x="17" y="684.0513">RN-2-03</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="1059" x="86" y="684.0513">Que se defina un atributo booleano "VinculoActivo" que si se ha solicitado aceptado y no se ha revocado toma como valor true, y por el contrario toma el valor false.</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="61" x="17" y="699.1841">RN-2-04</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="842" x="92" y="699.1841">Solo se admite un vinculo atcivo entre 2 usarios , Pueden existir otros vinculos historicos entre ellos, pero deben de estar inactivos.</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="61" x="17" y="714.3169">RN-2-05</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="1288" x="87" y="714.3169">Solo un usario activo(no tien fecha de baj) pueda solicitar vinculo de amistad y que un usuario activo pueda aceptar un vínculo solicitad, tanto en en el instante de la solicitud como eel de la aceptacion.</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="69" x="17" y="729.4497">RN-3-02b</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="411" x="95" y="729.4497">Un vínculo solo puede establecerse entre dos usuarios distintos.</text><path d="M2033.5,636.4531 L2033.5,706.9844 L2958.5,706.9844 L2958.5,646.4531 L2948.5,636.4531 L2033.5,636.4531 " fill="#FBFB77" filter="url(#fqv6llntq7z4c)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2948.5,636.4531 L2948.5,646.4531 L2958.5,646.4531 L2948.5,636.4531 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="60" x="2044.5" y="653.52">RN-3-01</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="687" x="2113.5" y="653.52">Los rangos de estatura y peso han de ser positivos y la cota superior ha de ser maor o igual que la inferior.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="648" x="2039.5" y="668.6528">Cualquier otro dato de la fica de peferencias puede especificarse con objeto de afinar las búsquedas.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="904" x="2039.5" y="683.7856">Opcionalmente pueden definirse la preferencia geográfica con mayor omenor precision, especifiando el codigo postal , municipio o provincia.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="405" x="2039.5" y="698.9185">Tambien se pueden especificar valores de aficiones preferidas.</text><path d="M857.5,1102.4531 L857.5,1157.8516 A0,0 0 0 0 857.5,1157.8516 L1319.67,1157.8516 L910.577,1385.8591 L1327.67,1157.8516 L1886.5,1157.8516 A0,0 0 0 0 1886.5,1157.8516 L1886.5,1112.4531 L1876.5,1102.4531 L857.5,1102.4531 A0,0 0 0 0 857.5,1102.4531 " fill="#FBFB77" filter="url(#fqv6llntq7z4c)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1876.5,1102.4531 L1876.5,1112.4531 L1886.5,1112.4531 L1876.5,1102.4531 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="62" x="868.5" y="1119.52">RN-4-00</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="458" x="939.5" y="1119.52">Todos los datos de una conversacion y de un mensaje son obligatorios.</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="61" x="868.5" y="1134.6528">RN-4-01</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="526" x="938.5" y="1134.6528">La conversación termine (fecha de finalización) despues del inicio(fecha de inicio).</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="61" x="868.5" y="1149.7856">RN-4-02</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="933" x="938.5" y="1149.7856">Una conversacío solo puede crearse bajo un vínculo de amistad actvo, En caso contrario ni se muestra la opción  ni podrá definirse en el sistema.</text><path d="M945.5,1399.4531 L945.5,1454.8516 A0,0 0 0 0 945.5,1454.8516 L1410.94,1454.8516 L1310.95,1549.6646 L1418.94,1454.8516 L1942.5,1454.8516 A0,0 0 0 0 1942.5,1454.8516 L1942.5,1409.4531 L1932.5,1399.4531 L945.5,1399.4531 A0,0 0 0 0 945.5,1399.4531 " fill="#FBFB77" filter="url(#fqv6llntq7z4c)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1932.5,1399.4531 L1932.5,1409.4531 L1942.5,1409.4531 L1932.5,1399.4531 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="52" x="956.5" y="1416.52">RN-4-0</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="451" x="1017.5" y="1416.52">todos los datos de una conversadcion de un mensaje son obligatorios.</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="50" x="956.5" y="1431.6528">RN-4-3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="912" x="1015.5" y="1431.6528">el instante en el que se genera ubn mensaje esté dntro del intervalo definido para una Conversación( que está activa si no tiene fecha de fin).</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="428" x="951.5" y="1446.7856">Ningun mensaje puede ser posterior al cierra de una conversacion.</text><!--MD5=[b7b8956566e7d93f7191cbf3eeea0925]
+link RN_ficha to C_Ficha_Preferencia--><path codeLine="235" d="M2493.74,707.6471 C2489.8,757.0821 2479.71,850.1981 2456,925.9531 C2450.68,942.9471 2444.16,960.3121 2437.03,977.3811 " fill="none" id="RN_ficha-C_Ficha_Preferencia" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[64d9a336eece5bb2709feca7230eb0c2]
+link C_Foto to C_Usuario--><path codeLine="243" d="M2180.85,408.2631 C2174.16,414.9231 2167.15,421.3131 2160,426.9531 C2103.04,471.9231 2066.67,451.9931 2016,503.9531 C2009.66,510.4631 2003.69,517.5431 1998.11,524.9931 " fill="none" id="C_Foto-C_Usuario" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="2112.2137,462.8279,2103.009,465.2203,2106.1731,470.1738,2112.2137,462.8279" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="32" x="2117" y="470.02">Sube</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="2150.9235" y="430.56">[0..5]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="2006.2165" y="504.229">1</text><!--MD5=[766677dbc4f5e66bd8ba856da8a72aa4]
+reverse link C_Conversacion to C_Mensaje--><path codeLine="244" d="M922.675,1470.6861 C924.461,1471.4591 926.237,1472.2161 928,1472.9531 C1023.51,1512.9101 1138.12,1549.8222 1206.89,1570.8379 " fill="none" id="C_Conversacion-backto-C_Mensaje" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="910.802,1465.3841,914.6492,1471.4832,921.7589,1470.2777,917.9116,1464.1786,910.802,1465.3841" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="72" x="1049" y="1516.02">compuesta</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1192.0157" y="1564.6968">*</text><!--MD5=[6a26e9f349a859df44003fad0d1b5ae4]
+link C_Usuario to C_Vinculo_Amistad--><path codeLine="248" d="M1865.95,696.4601 C1767.07,731.0751 1574.29,796.3641 1407,839.9531 C1344.77,856.1671 895.067,922.7461 840,955.9531 C810.885,973.5111 785.083,999.2771 763.732,1025.5891 " fill="none" id="C_Usuario-C_Vinculo_Amistad" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1514.209,879.9501,1523.7169,880.1782,1522.0351,874.5461,1514.209,879.9501" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1528" y="883.02">solicita</text><path d="M1245,892.0859 L1245,917.0859 L1838,917.0859 L1838,902.0859 L1828,892.0859 L1245,892.0859 " fill="#FBFB77" filter="url(#fqv6llntq7z4c)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1828,892.0859 L1828,902.0859 L1838,902.0859 L1828,892.0859 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="61" x="1256" y="909.1528">RN-2-02</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="497" x="1326" y="909.1528">Un usuario solamente puede solicitar 5 vinculos de amistad en un dia natural.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1849.8505" y="695.5219">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="761.1077" y="1014.8095">*</text><!--MD5=[78389b90ee842ba4584a2011df687dce]
+link C_Vinculo_Amistad to C_Usuario--><path codeLine="254" d="M745.589,1025.6751 C777.411,969.2941 825.037,904.1711 888,869.9531 C989.505,814.7891 1293.4,860.9601 1407,839.9531 C1576.53,808.6041 1767.6,738.6091 1865.83,699.9311 " fill="none" id="C_Vinculo_Amistad-C_Usuario" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="897.8011,896.6235,888.2952,896.3269,889.9364,901.971,897.8011,896.6235" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="902" y="902.52">recibe</text><ellipse cx="741.1065" cy="1015.3485" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1850.1552" y="715.9053">1</text><!--MD5=[9ee2decf94c70c2b94e8ee6ecdbd1067]
+link C_Usuario to C_Ubicacion--><path codeLine="253" d="M1998.14,807.6171 C2004.04,818.6351 2010.03,829.5321 2016,839.9531 C2046.5,893.2311 2060.13,902.8841 2091,955.9531 C2110.15,988.8771 2129.85,1026.2731 2145.92,1057.8531 " fill="none" id="C_Usuario-C_Ubicacion" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="2073" y="902.52">resideEn</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="2005.8116" y="818.7289">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="2134.9414" y="1046.7403">*</text><!--MD5=[477e4342b019360082ef3c8e20c5cbb2]
+link C_Vinculo_Amistad to C_Conversacion--><path codeLine="255" d="M746.965,1234.1301 C770.778,1284.3071 798.172,1342.0291 816.637,1380.9381 " fill="none" id="C_Vinculo_Amistad-C_Conversacion" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="802" y="1347.02">conversan</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="741.9861" y="1253.7184">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="805.8299" y="1369.7938">*</text><!--MD5=[581cdbb39f0a2f7278d63e2d8a8d5253]
+link C_Usuario to C_Ficha_Preferencia--><path codeLine="256" d="M1998.27,823.1191 C2003.76,829.2231 2009.66,834.8901 2016,839.9531 C2059.29,874.5281 2086.52,847.1231 2137,869.9531 C2198.11,897.5891 2215.89,906.3221 2261,955.9531 C2267.14,962.7061 2273.04,969.9141 2278.7,977.4111 " fill="none" id="C_Usuario-C_Ficha_Preferencia" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="2240.3807,900.4298,2233.8726,893.4947,2231.0392,898.6445,2240.3807,900.4298" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="115" x="2245" y="902.52">TienePreferencias</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="2005.9558" y="835.9264">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="2264.0669" y="959.7097">*</text><!--MD5=[d59d89fb1ffc1a7ea0388ac054c57829]
+link C_Ficha_Preferencia to C_Aficion--><path codeLine="257" d="M2278.72,1283.2341 C2273.07,1290.4981 2267.16,1297.4581 2261,1303.9531 C2217.49,1349.8231 2153.27,1385.8931 2111.05,1406.5691 " fill="none" id="C_Ficha_Preferencia-C_Aficion" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="2264.0887" y="1293.7258">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="2119.0508" y="1398.8717">*</text><!--MD5=[8e6059827d85a05afdd1692153446fc3]
+link C_Usuario to C_Aficion--><path codeLine="258" d="M1917.17,839.9631 C1911.64,970.4961 1917.41,1154.2741 1974,1303.9531 C1987.43,1339.4681 2014.88,1373.1201 2036.67,1396.0491 " fill="none" id="C_Usuario-C_Aficion" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1980.0505,1134.9079,1981.0235,1125.4473,1975.2768,1126.6822,1980.0505,1134.9079" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="111" x="1988" y="1134.52">tienecomoAficion</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1909.3967" y="859.4447">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="2022.4863" y="1385.229">*</text><!--MD5=[8d6bdfa0bc521a1b370d66272d6f1122]
+link E_Genero to E_Color_Pelo--><!--MD5=[ba27ac664036159963a9b571ebefef95]
+link E_Genero to E_Color_Ojos--><!--MD5=[71cced1ecbde5a24665d58df13829025]
+@startuml
+title Diagrama clases IISSI Friends 
+
+enum E_Genero <<Enumerate>>{ 
+
+masculino 
+
+femenino 
+
+otros 
+
+} 
+
+enum E_Color_Pelo<<Enumerate>>{ 
+
+negro  
+
+castaño 
+
+rojo  
+
+blanco  
+
+gris 
+
+} 
+
+enum E_Color_Ojos<<Enumerate>>{ 
+
+negros 
+
+castaños 
+
+azules 
+
+verdes 
+
+grises 
+
+} 
+class C_Aficion{
+    Aficion:string
+}
+
+class C_Ubicacion<<Entity>>{ 
+
+ 
+
+codigoPostal:Integer 
+
+municipio:String 
+
+provincia:String 
+
+
+
+} 
+
+
+
+class C_Usuario<<Entity>>{ 
+
+nombre 
+
+fecha:Date
+
+estatura:Integer  
+
+peso:Integer 
+
+genero:E_Genero 
+
+email:String  
+
+pasword:String 
+estaActivo:BOOLEAN
+
+fechaAlta:Date 
+
+fechaBaja:Date [0..1] 
+
+colorPelo:E_ColorPelo 
+
+colorOjo: E_ColorOjos 
+
+} 
+
+ 
+class C_Conversacion<<Entity>>{ 
+/'
+se deducen de la asociacion , así que no hace falta ponerlos 
+Participante1:C_Usuario 
+
+Participante2:C_Usuario 
+'/
+
+fecha_inicio: Date 
+fecha_fin: Date [0..1] 
+/new_mensaje:boolean 
+
+} 
+
+class C_Mensaje<<Entity>>{ 
+
+Instante: DATETIME
+/'
+igualr que con conversaciones, creo que no hacen falta
+emisor:C_Usuario
+receptor:C_Usuario
+'/
+Texto:String 
+
+     
+
+} 
+
+Class C_Foto<<Entity>>{ 
+
+Url:String 
+
+nombre:string 
+
+Descripción:string 
+fecha: Date
+
+} 
+
+
+
+ 
+
+Class C_Vinculo_Amistad<<Entity>>{ 
+
+Solicitante:C_Usuario 
+
+Aceptante:C_Usuario 
+/VinculoActivo:boolean 
+
+Fecha_Solicitud: Date 
+
+Fecha_Aceptacion:Date [0..1] 
+
+Fecha_Revocación_Solicitud: Date[0..1] 
+
+Fecha_Revocación_Aceptacion:Date [0..1]
+
+} 
+
+
+Class C_Ficha_Preferencia<<Entity>>{ 
+
+Edad_Maxima:Integer 
+
+Edad_minima:Integer 
+
+Peso_maximo:Integer 
+
+Peso_minimo:Integer 
+
+AlturaMaxima:Integer 
+
+AlturaMinima:Integer 
+
+ColorPelo: E_ColorPelo 
+
+ColorOjo;E_ColorOjo 
+
+Genero:E_Genero 
+
+codigoPostal:Integer [0..1]
+
+municipio:String [0..1]
+
+provincia:String [0..1]
+
+
+
+} 
+
+note as RN_usuarios
+<b> RN-1-0a </b> Todos los datos excepto la feha de baja son obligatorios. 
+Una fecha de baja nula repersentaa un usuario activo y
+ viceversa un usuario que se ha dado de baja logicamente.
+ <b> RN-1-0b </b> El peso(kg) y la altura(cm) son positivos
+ <b> RN-1-0z </b> Los valores por defectoson 75 kg de peso, 170 cm de altura y el color de pelo es negro.
+ <b> RN-1-1 </b>En el momento de alta todos los usuarios registrados deben de ser mayores de 18 años.
+ <b> RN-1-2 </b> El email sirve como identificador y por tanto ha de de ser unico
+ <b> RN-1-3 </b> La fecha de alta ha de ser posterior a las de nacimiento, 
+ y de existir la fecha de baja debe de ser posterior a la de alta.
+
+ end note
+
+ 
+
+
+note as RN_fotos 
+<b> RN-1-0c </b> Es obligatorio que las fotos tengan nombre descripcion y url.
+<b> RN-1-4 </b> Solo se pueden almacenar un máximo de 5 fotos por usuario
+end note 
+
+note as RN_vinculos
+<b> RN-2-01 </b> La fechade solicitud de amistad es obligatoria.
+Si se ha aceptado el vinculo (fechade aceptación cumplimentada), entonces la fecha de aceptación en posterior a la de solicitud del otro contacto.
+Si el solicitante revoca la amistad(fecha revocacion solicitud cumplimentada). entonces ha de ser posterior a la solicitud.
+Si el aceptante revoca la amistad(fecha revocacion aceptacion cumplimentada) entonces ese instante sea posterior a la aceptación.
+<b> RN-2-03 </b> Que se defina un atributo booleano "VinculoActivo" que si se ha solicitado aceptado y no se ha revocado toma como valor true, y por el contrario toma el valor false.
+<b> RN-2-04  </b> Solo se admite un vinculo atcivo entre 2 usarios , Pueden existir otros vinculos historicos entre ellos, pero deben de estar inactivos.
+<b> RN-2-05 </b> Solo un usario activo(no tien fecha de baj) pueda solicitar vinculo de amistad y que un usuario activo pueda aceptar un vínculo solicitad, tanto en en el instante de la solicitud como eel de la aceptacion.
+<b> RN-3-02b </b> Un vínculo solo puede establecerse entre dos usuarios distintos.
+end note
+
+
+note as RN_ficha
+<b> RN-3-01 </b> Los rangos de estatura y peso han de ser positivos y la cota superior ha de ser maor o igual que la inferior.
+Cualquier otro dato de la fica de peferencias puede especificarse con objeto de afinar las búsquedas.
+Opcionalmente pueden definirse la preferencia geográfica con mayor omenor precision, especifiando el codigo postal , municipio o provincia.
+Tambien se pueden especificar valores de aficiones preferidas.
+end note
+
+note as RN_conversaciones
+<b> RN-4-00 </b> Todos los datos de una conversacion y de un mensaje son obligatorios.
+<b> RN-4-01 </b> La conversación termine (fecha de finalización) despues del inicio(fecha de inicio).
+<b> RN-4-02 </b> Una conversacío solo puede crearse bajo un vínculo de amistad actvo, En caso contrario ni se muestra la opción  ni podrá definirse en el sistema.
+end note
+
+note as RN_mensajes
+<b> RN-4-0 </b> todos los datos de una conversadcion de un mensaje son obligatorios.
+<b> RN-4-3 </b> el instante en el que se genera ubn mensaje esté dntro del intervalo definido para una Conversación( que está activa si no tiene fecha de fin).
+Ningun mensaje puede ser posterior al cierra de una conversacion.
+end note
+
+
+
+
+RN_vinculos - - C_Vinculo_Amistad
+RN_ficha- - C_Ficha_Preferencia
+RN_conversaciones - -C_Conversacion
+RN_mensajes - - C_Mensaje
+RN_usuarios- - C_Usuario
+RN_fotos - - C_Foto
+
+
+
+C_Usuario"1"-up-"[0..5]"C_Foto:> Sube 
+C_Conversacion*- -"*"C_Mensaje:compuesta
+/'C_Usuario"*"-right-"*"C_Usuario:RealizaBusqueda >'/
+
+
+C_Usuario"1"- -"*"C_Vinculo_Amistad: solicita >
+note on link
+<b> RN-2-02 </b> Un usuario solamente puede solicitar 5 vinculos de amistad en un dia natural.
+end note
+
+C_Usuario"1"- -"*" C_Ubicacion:resideEn
+C_Vinculo_Amistad"* "- -"1"C_Usuario:recibe > 
+C_Vinculo_Amistad"1"- -"*"C_Conversacion:conversan
+C_Usuario"1"- - "*"C_Ficha_Preferencia:TienePreferencias >
+C_Ficha_Preferencia"*"- -"*"C_Aficion
+C_Usuario"*"- - "*"C_Aficion: tienecomoAficion >
+@enduml
+
+@startuml
+title Diagrama clases IISSI Friends 
+
+enum E_Genero <<Enumerate>>{ 
+
+masculino 
+
+femenino 
+
+otros 
+
+} 
+
+enum E_Color_Pelo<<Enumerate>>{ 
+
+negro  
+
+castaño 
+
+rojo  
+
+blanco  
+
+gris 
+
+} 
+
+enum E_Color_Ojos<<Enumerate>>{ 
+
+negros 
+
+castaños 
+
+azules 
+
+verdes 
+
+grises 
+
+} 
+class C_Aficion{
+    Aficion:string
+}
+
+class C_Ubicacion<<Entity>>{ 
+
+ 
+
+codigoPostal:Integer 
+
+municipio:String 
+
+provincia:String 
+
+
+
+} 
+
+
+
+class C_Usuario<<Entity>>{ 
+
+nombre 
+
+fecha:Date
+
+estatura:Integer  
+
+peso:Integer 
+
+genero:E_Genero 
+
+email:String  
+
+pasword:String 
+estaActivo:BOOLEAN
+
+fechaAlta:Date 
+
+fechaBaja:Date [0..1] 
+
+colorPelo:E_ColorPelo 
+
+colorOjo: E_ColorOjos 
+
+} 
+
+ 
+class C_Conversacion<<Entity>>{ 
+
+fecha_inicio: Date 
+fecha_fin: Date [0..1] 
+/new_mensaje:boolean 
+
+} 
+
+class C_Mensaje<<Entity>>{ 
+
+Instante: DATETIME
+Texto:String 
+
+     
+
+} 
+
+Class C_Foto<<Entity>>{ 
+
+Url:String 
+
+nombre:string 
+
+Descripción:string 
+fecha: Date
+
+} 
+
+
+
+ 
+
+Class C_Vinculo_Amistad<<Entity>>{ 
+
+Solicitante:C_Usuario 
+
+Aceptante:C_Usuario 
+/VinculoActivo:boolean 
+
+Fecha_Solicitud: Date 
+
+Fecha_Aceptacion:Date [0..1] 
+
+Fecha_Revocación_Solicitud: Date[0..1] 
+
+Fecha_Revocación_Aceptacion:Date [0..1]
+
+} 
+
+
+Class C_Ficha_Preferencia<<Entity>>{ 
+
+Edad_Maxima:Integer 
+
+Edad_minima:Integer 
+
+Peso_maximo:Integer 
+
+Peso_minimo:Integer 
+
+AlturaMaxima:Integer 
+
+AlturaMinima:Integer 
+
+ColorPelo: E_ColorPelo 
+
+ColorOjo;E_ColorOjo 
+
+Genero:E_Genero 
+
+codigoPostal:Integer [0..1]
+
+municipio:String [0..1]
+
+provincia:String [0..1]
+
+
+
+} 
+
+note as RN_usuarios
+<b> RN-1-0a </b> Todos los datos excepto la feha de baja son obligatorios. 
+Una fecha de baja nula repersentaa un usuario activo y
+ viceversa un usuario que se ha dado de baja logicamente.
+ <b> RN-1-0b </b> El peso(kg) y la altura(cm) son positivos
+ <b> RN-1-0z </b> Los valores por defectoson 75 kg de peso, 170 cm de altura y el color de pelo es negro.
+ <b> RN-1-1 </b>En el momento de alta todos los usuarios registrados deben de ser mayores de 18 años.
+ <b> RN-1-2 </b> El email sirve como identificador y por tanto ha de de ser unico
+ <b> RN-1-3 </b> La fecha de alta ha de ser posterior a las de nacimiento, 
+ y de existir la fecha de baja debe de ser posterior a la de alta.
+
+ end note
+
+ 
+
+
+note as RN_fotos 
+<b> RN-1-0c </b> Es obligatorio que las fotos tengan nombre descripcion y url.
+<b> RN-1-4 </b> Solo se pueden almacenar un máximo de 5 fotos por usuario
+end note 
+
+note as RN_vinculos
+<b> RN-2-01 </b> La fechade solicitud de amistad es obligatoria.
+Si se ha aceptado el vinculo (fechade aceptación cumplimentada), entonces la fecha de aceptación en posterior a la de solicitud del otro contacto.
+Si el solicitante revoca la amistad(fecha revocacion solicitud cumplimentada). entonces ha de ser posterior a la solicitud.
+Si el aceptante revoca la amistad(fecha revocacion aceptacion cumplimentada) entonces ese instante sea posterior a la aceptación.
+<b> RN-2-03 </b> Que se defina un atributo booleano "VinculoActivo" que si se ha solicitado aceptado y no se ha revocado toma como valor true, y por el contrario toma el valor false.
+<b> RN-2-04  </b> Solo se admite un vinculo atcivo entre 2 usarios , Pueden existir otros vinculos historicos entre ellos, pero deben de estar inactivos.
+<b> RN-2-05 </b> Solo un usario activo(no tien fecha de baj) pueda solicitar vinculo de amistad y que un usuario activo pueda aceptar un vínculo solicitad, tanto en en el instante de la solicitud como eel de la aceptacion.
+<b> RN-3-02b </b> Un vínculo solo puede establecerse entre dos usuarios distintos.
+end note
+
+
+note as RN_ficha
+<b> RN-3-01 </b> Los rangos de estatura y peso han de ser positivos y la cota superior ha de ser maor o igual que la inferior.
+Cualquier otro dato de la fica de peferencias puede especificarse con objeto de afinar las búsquedas.
+Opcionalmente pueden definirse la preferencia geográfica con mayor omenor precision, especifiando el codigo postal , municipio o provincia.
+Tambien se pueden especificar valores de aficiones preferidas.
+end note
+
+note as RN_conversaciones
+<b> RN-4-00 </b> Todos los datos de una conversacion y de un mensaje son obligatorios.
+<b> RN-4-01 </b> La conversación termine (fecha de finalización) despues del inicio(fecha de inicio).
+<b> RN-4-02 </b> Una conversacío solo puede crearse bajo un vínculo de amistad actvo, En caso contrario ni se muestra la opción  ni podrá definirse en el sistema.
+end note
+
+note as RN_mensajes
+<b> RN-4-0 </b> todos los datos de una conversadcion de un mensaje son obligatorios.
+<b> RN-4-3 </b> el instante en el que se genera ubn mensaje esté dntro del intervalo definido para una Conversación( que está activa si no tiene fecha de fin).
+Ningun mensaje puede ser posterior al cierra de una conversacion.
+end note
+
+
+
+
+RN_vinculos - - C_Vinculo_Amistad
+RN_ficha- - C_Ficha_Preferencia
+RN_conversaciones - -C_Conversacion
+RN_mensajes - - C_Mensaje
+RN_usuarios- - C_Usuario
+RN_fotos - - C_Foto
+
+
+
+C_Usuario"1"-up-"[0..5]"C_Foto:> Sube 
+C_Conversacion*- -"*"C_Mensaje:compuesta
+
+
+C_Usuario"1"- -"*"C_Vinculo_Amistad: solicita >
+note on link
+<b> RN-2-02 </b> Un usuario solamente puede solicitar 5 vinculos de amistad en un dia natural.
+end note
+
+C_Usuario"1"- -"*" C_Ubicacion:resideEn
+C_Vinculo_Amistad"* "- -"1"C_Usuario:recibe > 
+C_Vinculo_Amistad"1"- -"*"C_Conversacion:conversan
+C_Usuario"1"- - "*"C_Ficha_Preferencia:TienePreferencias >
+C_Ficha_Preferencia"*"- -"*"C_Aficion
+C_Usuario"*"- - "*"C_Aficion: tienecomoAficion >
+@enduml
+
+PlantUML version 1.2021.17beta10(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

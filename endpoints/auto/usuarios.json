@@ -1,0 +1,82 @@
+{
+    "getAll": {
+        "route": "/usuarios",
+        "method": "GET",
+        "sql": "SELECT * FROM usuarios",
+        "auth_required": false,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Gets all usuarios"
+    },
+    "getById": {
+        "route": "/usuarios/$email",
+        "method": "GET",
+        "sql": "SELECT * FROM usuarios WHERE email = $email",
+        "auth_required": false,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Gets an entry from 'usuarios' by its primary key"
+    },
+    "create": {
+        "route": "/usuarios",
+        "method": "POST",
+        "sql": "INSERT INTO usuarios(usuarioID, nombre, fechaNacimiento, estatura, peso, genero, password, fechaAlta, fechaBaja, estaActivo, colorPelo, colorOjo, email) VALUES ($usuarioID, $nombre, $fechaNacimiento, $estatura, $peso, $genero, $password, $fechaAlta, $fechaBaja, $estaActivo, $colorPelo, $colorOjo, $email)",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Creates a new entry in 'usuarios'",
+        "request_body_params": [
+            "usuarioID",
+            "nombre",
+            "fechaNacimiento",
+            "estatura",
+            "peso",
+            "genero",
+            "password",
+            "fechaAlta",
+            "fechaBaja",
+            "estaActivo",
+            "colorPelo",
+            "colorOjo",
+            "email"
+        ]
+    },
+    "update": {
+        "route": "/usuarios/$email",
+        "method": "PUT",
+        "sql": "UPDATE usuarios SET usuarioID = $usuarioID, nombre = $nombre, fechaNacimiento = $fechaNacimiento, estatura = $estatura, peso = $peso, genero = $genero, password = $password, fechaAlta = $fechaAlta, fechaBaja = $fechaBaja, estaActivo = $estaActivo, colorPelo = $colorPelo, colorOjo = $colorOjo, email = $email WHERE email = $email",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Updates an existing entry in 'usuarios' by its primary key",
+        "request_body_params": [
+            "usuarioID",
+            "nombre",
+            "fechaNacimiento",
+            "estatura",
+            "peso",
+            "genero",
+            "password",
+            "fechaAlta",
+            "fechaBaja",
+            "estaActivo",
+            "colorPelo",
+            "colorOjo",
+            "email"
+        ]
+    },
+    "delete": {
+        "route": "/usuarios/$email",
+        "method": "DELETE",
+        "sql": "DELETE FROM usuarios WHERE email = $email",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Deletes an existing entry in 'usuarios' by its primary key"
+    }
+}

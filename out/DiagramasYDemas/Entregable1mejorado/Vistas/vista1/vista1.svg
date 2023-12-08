@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1124px" preserveAspectRatio="none" style="width:1372px;height:1124px;background:#FFFFFF;" version="1.1" viewBox="0 0 1372 1124" width="1372px" zoomAndPan="magnify"><defs><filter height="300%" id="fi6dfpjs6im60" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[c7327a57a368070e276ab223dfd8b8d2]
+class C_Usuario--><rect codeLine="3" fill="#FEFECE" filter="url(#fi6dfpjs6im60)" height="335.6406" id="C_Usuario" style="stroke:#A80036;stroke-width:1.5;" width="132" x="966.5" y="228"/><ellipse cx="999.5" cy="246.9688" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1001.8438,242.6406 C1000.9063,242.2031 1000.3125,242.0625 999.4375,242.0625 C996.8125,242.0625 994.8125,244.1406 994.8125,246.8594 L994.8125,247.9844 C994.8125,250.5625 996.9219,252.4531 999.8125,252.4531 C1001.0313,252.4531 1002.1875,252.1563 1002.9375,251.6094 C1003.5156,251.2031 1003.8438,250.75 1003.8438,250.3594 C1003.8438,249.9063 1003.4531,249.5156 1002.9844,249.5156 C1002.7656,249.5156 1002.5625,249.5938 1002.375,249.7813 C1001.9219,250.2656 1001.9219,250.2656 1001.7344,250.3594 C1001.3125,250.625 1000.625,250.75 999.8594,250.75 C997.8125,250.75 996.5156,249.6563 996.5156,247.9531 L996.5156,246.8594 C996.5156,245.0781 997.7656,243.7656 999.5,243.7656 C1000.0781,243.7656 1000.6875,243.9219 1001.1563,244.1719 C1001.6406,244.4531 1001.8125,244.6719 1001.9063,245.0781 C1001.9688,245.4844 1002,245.6094 1002.1406,245.7344 C1002.2813,245.875 1002.5156,245.9844 1002.7344,245.9844 C1003,245.9844 1003.2656,245.8438 1003.4375,245.625 C1003.5469,245.4688 1003.5781,245.2813 1003.5781,244.8594 L1003.5781,243.4375 C1003.5781,243 1003.5625,242.875 1003.4688,242.7188 C1003.3125,242.4531 1003.0313,242.3125 1002.7344,242.3125 C1002.4375,242.3125 1002.2344,242.4063 1002.0156,242.7188 L1001.8438,242.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="50" x="1022.5" y="244.1387">«Entity»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="60" x="1017.5" y="258.1074">C_Usuario</text><line style="stroke:#A80036;stroke-width:1.5;" x1="967.5" x2="1097.5" y1="265.9375" y2="265.9375"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="44" x="972.5" y="280.1479">nombre</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="976.5" y="292.9526"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="972.5" y="305.7573">fecha:Date</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="976.5" y="318.562"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="91" x="972.5" y="331.3667">estatura:Integer</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="976.5" y="344.1714"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="972.5" y="356.9761">peso:Integer</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="976.5" y="369.7808"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="100" x="972.5" y="382.5854">genero:E_Genero</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="976.5" y="395.3901"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="68" x="972.5" y="408.1948">email:String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="976.5" y="420.9995"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="83" x="972.5" y="433.8042">pasword:String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="118" x="972.5" y="446.6089">estaActivo:BOOLEAN</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="976.5" y="459.4136"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="85" x="972.5" y="472.2183">fechaAlta:Date</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="976.5" y="485.0229"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="972.5" y="497.8276">fechaBaja:Date [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="976.5" y="510.6323"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="972.5" y="523.437">colorPelo:E_ColorPelo</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="976.5" y="536.2417"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="972.5" y="549.0464">colorOjo: E_ColorOjos</text><line style="stroke:#A80036;stroke-width:1.5;" x1="967.5" x2="1097.5" y1="555.6406" y2="555.6406"/><!--MD5=[74312b34ed3fbcb8e9ef19af0a0302ac]
+class C_Ficha_Preferencia--><rect codeLine="31" fill="#FEFECE" filter="url(#fi6dfpjs6im60)" height="348.4453" id="C_Ficha_Preferencia" style="stroke:#A80036;stroke-width:1.5;" width="158" x="800.5" y="641"/><ellipse cx="818.65" cy="659.9688" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M820.9938,655.6406 C820.0563,655.2031 819.4625,655.0625 818.5875,655.0625 C815.9625,655.0625 813.9625,657.1406 813.9625,659.8594 L813.9625,660.9844 C813.9625,663.5625 816.0719,665.4531 818.9625,665.4531 C820.1813,665.4531 821.3375,665.1563 822.0875,664.6094 C822.6656,664.2031 822.9938,663.75 822.9938,663.3594 C822.9938,662.9063 822.6031,662.5156 822.1344,662.5156 C821.9156,662.5156 821.7125,662.5938 821.525,662.7813 C821.0719,663.2656 821.0719,663.2656 820.8844,663.3594 C820.4625,663.625 819.775,663.75 819.0094,663.75 C816.9625,663.75 815.6656,662.6563 815.6656,660.9531 L815.6656,659.8594 C815.6656,658.0781 816.9156,656.7656 818.65,656.7656 C819.2281,656.7656 819.8375,656.9219 820.3063,657.1719 C820.7906,657.4531 820.9625,657.6719 821.0563,658.0781 C821.1188,658.4844 821.15,658.6094 821.2906,658.7344 C821.4313,658.875 821.6656,658.9844 821.8844,658.9844 C822.15,658.9844 822.4156,658.8438 822.5875,658.625 C822.6969,658.4688 822.7281,658.2813 822.7281,657.8594 L822.7281,656.4375 C822.7281,656 822.7125,655.875 822.6188,655.7188 C822.4625,655.4531 822.1813,655.3125 821.8844,655.3125 C821.5875,655.3125 821.3844,655.4063 821.1656,655.7188 L820.9938,655.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="50" x="867.85" y="657.1387">«Entity»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="119" x="833.35" y="671.1074">C_Ficha_Preferencia</text><line style="stroke:#A80036;stroke-width:1.5;" x1="801.5" x2="957.5" y1="678.9375" y2="678.9375"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="122" x="806.5" y="693.1479">Edad_Maxima:Integer</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="810.5" y="705.9526"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="806.5" y="718.7573">Edad_minima:Integer</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="810.5" y="731.562"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="123" x="806.5" y="744.3667">Peso_maximo:Integer</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="810.5" y="757.1714"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="119" x="806.5" y="769.9761">Peso_minimo:Integer</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="810.5" y="782.7808"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="121" x="806.5" y="795.5854">AlturaMaxima:Integer</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="810.5" y="808.3901"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="117" x="806.5" y="821.1948">AlturaMinima:Integer</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="810.5" y="833.9995"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="126" x="806.5" y="846.8042">ColorPelo: E_ColorPelo</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="810.5" y="859.6089"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="112" x="806.5" y="872.4136">ColorOjo;E_ColorOjo</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="810.5" y="885.2183"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="806.5" y="898.0229">Genero:E_Genero</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="810.5" y="910.8276"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="146" x="806.5" y="923.6323">codigoPostal:Integer [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="810.5" y="936.437"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="122" x="806.5" y="949.2417">municipio:String [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="810.5" y="962.0464"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="119" x="806.5" y="974.8511">provincia:String [0..1]</text><line style="stroke:#A80036;stroke-width:1.5;" x1="801.5" x2="957.5" y1="981.4453" y2="981.4453"/><!--MD5=[431e5a1f4a4bcacd3d2db48cbea45452]
+class C_Aficion--><rect codeLine="60" fill="#FEFECE" filter="url(#fi6dfpjs6im60)" height="60.8047" id="C_Aficion" style="stroke:#A80036;stroke-width:1.5;" width="118" x="924.5" y="1050"/><ellipse cx="953.9" cy="1066" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M956.2438,1061.6719 C955.3063,1061.2344 954.7125,1061.0938 953.8375,1061.0938 C951.2125,1061.0938 949.2125,1063.1719 949.2125,1065.8906 L949.2125,1067.0156 C949.2125,1069.5938 951.3219,1071.4844 954.2125,1071.4844 C955.4313,1071.4844 956.5875,1071.1875 957.3375,1070.6406 C957.9156,1070.2344 958.2438,1069.7813 958.2438,1069.3906 C958.2438,1068.9375 957.8531,1068.5469 957.3844,1068.5469 C957.1656,1068.5469 956.9625,1068.625 956.775,1068.8125 C956.3219,1069.2969 956.3219,1069.2969 956.1344,1069.3906 C955.7125,1069.6563 955.025,1069.7813 954.2594,1069.7813 C952.2125,1069.7813 950.9156,1068.6875 950.9156,1066.9844 L950.9156,1065.8906 C950.9156,1064.1094 952.1656,1062.7969 953.9,1062.7969 C954.4781,1062.7969 955.0875,1062.9531 955.5563,1063.2031 C956.0406,1063.4844 956.2125,1063.7031 956.3063,1064.1094 C956.3688,1064.5156 956.4,1064.6406 956.5406,1064.7656 C956.6813,1064.9063 956.9156,1065.0156 957.1344,1065.0156 C957.4,1065.0156 957.6656,1064.875 957.8375,1064.6563 C957.9469,1064.5 957.9781,1064.3125 957.9781,1063.8906 L957.9781,1062.4688 C957.9781,1062.0313 957.9625,1061.9063 957.8688,1061.75 C957.7125,1061.4844 957.4313,1061.3438 957.1344,1061.3438 C956.8375,1061.3438 956.6344,1061.4375 956.4156,1061.75 L956.2438,1061.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="54" x="971.1" y="1070.1543">C_Aficion</text><line style="stroke:#A80036;stroke-width:1.5;" x1="925.5" x2="1041.5" y1="1082" y2="1082"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="106" x="930.5" y="1096.2104">Aficion:E_Aficiones</text><line style="stroke:#A80036;stroke-width:1.5;" x1="925.5" x2="1041.5" y1="1102.8047" y2="1102.8047"/><path d="M702,6 L702,167.3281 A0,0 0 0 0 702,167.3281 L1028.5,167.3281 L1032.5,227.933 L1036.5,167.3281 L1363,167.3281 A0,0 0 0 0 1363,167.3281 L1363,16 L1353,6 L702,6 A0,0 0 0 0 702,6 " fill="#FBFB77" filter="url(#fi6dfpjs6im60)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1353,6 L1353,16 L1363,16 L1353,6 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="61" x="713" y="23.0669">RN-1-0a</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="365" x="783" y="23.0669">Todos los datos excepto la feha de baja son obligatorios.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="355" x="708" y="38.1997">Una fecha de baja nula repersentaa un usuario activo y</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="374" x="712" y="53.3325">viceversa un usuario que se ha dado de baja logicamente.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="0" x="712" y="68.4653"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="61" x="717" y="68.4653">RN-1-0b</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="257" x="787" y="68.4653">El peso(kg) y la altura(cm) son positivos</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="0" x="712" y="83.5981"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="60" x="717" y="83.5981">RN-1-0z</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="562" x="786" y="83.5981">Los valores por defectoson 75 kg de peso, 170 cm de altura y el color de pelo es negro.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="0" x="712" y="98.731"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="51" x="717" y="98.731">RN-1-1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="570" x="773" y="98.731">En el momento de alta todos los usuarios registrados deben de ser mayores de 18 años.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="0" x="712" y="113.8638"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="51" x="717" y="113.8638">RN-1-2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="405" x="777" y="113.8638">El email sirve como identificador y por tanto ha de de ser unico</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="0" x="712" y="128.9966"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="50" x="717" y="128.9966">RN-1-3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="361" x="776" y="128.9966">La fecha de alta ha de ser posterior a las de nacimiento,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="397" x="712" y="144.1294">y de existir la fecha de baja debe de ser posterior a la de alta.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="0" x="712" y="159.2622"/><path d="M6,360.5 L6,431.0313 A0,0 0 0 0 6,431.0313 L498.835,431.0313 L800.356,733.7 L506.835,431.0313 L931,431.0313 A0,0 0 0 0 931,431.0313 L931,370.5 L921,360.5 L6,360.5 A0,0 0 0 0 6,360.5 " fill="#FBFB77" filter="url(#fi6dfpjs6im60)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M921,360.5 L921,370.5 L931,370.5 L921,360.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="60" x="17" y="377.5669">RN-3-01</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="687" x="86" y="377.5669">Los rangos de estatura y peso han de ser positivos y la cota superior ha de ser maor o igual que la inferior.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="648" x="12" y="392.6997">Cualquier otro dato de la fica de peferencias puede especificarse con objeto de afinar las búsquedas.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="904" x="12" y="407.8325">Opcionalmente pueden definirse la preferencia geográfica con mayor omenor precision, especifiando el codigo postal , municipio o provincia.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="405" x="12" y="422.9653">Tambien se pueden especificar valores de aficiones preferidas.</text><!--MD5=[581cdbb39f0a2f7278d63e2d8a8d5253]
+link C_Usuario to C_Ficha_Preferencia--><path codeLine="87" d="M966.189,544.871 C960.685,551.702 954.794,558.139 948.5,564 C923.129,587.624 895.73,565.156 876.5,594 C867.018,608.223 860.943,624.196 857.373,640.872 " fill="none" id="C_Usuario-C_Ficha_Preferencia" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="877.7506,605.8743,886.4776,602.0941,882.589,597.6864,877.7506,605.8743" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="115" x="890.5" y="607.0669">TienePreferencias</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="950.4987" y="557.4273">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="849.2118" y="629.7018">*</text><!--MD5=[d59d89fb1ffc1a7ea0388ac054c57829]
+link C_Ficha_Preferencia to C_Aficion--><path codeLine="88" d="M947.855,989.187 C957.013,1012.3904 965.417,1033.6848 971.763,1049.7615 " fill="none" id="C_Ficha_Preferencia-C_Aficion" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="943.7937" y="1009.4795">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="961.6204" y="1038.9755">*</text><!--MD5=[8e6059827d85a05afdd1692153446fc3]
+link C_Usuario to C_Aficion--><path codeLine="89" d="M1020.48,564.395 C1008.67,728.97 991.566,967.154 985.627,1049.8771 " fill="none" id="C_Usuario-C_Aficion" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1019.142,820.0536,1022.721,811.2422,1016.8583,810.8213,1019.142,820.0536" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="111" x="1028.5" y="819.5669">tienecomoAficion</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1012.8253" y="583.8928">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="978.3438" y="1039.115">*</text><!--MD5=[6bec2ec3814d916e21554db8ab527d2b]
+@startuml
+/'la autora es imane Alouane'/
+
+class C_Usuario<<Entity>>{ 
+
+nombre 
+
+fecha:Date
+
+estatura:Integer  
+
+peso:Integer 
+
+genero:E_Genero 
+
+email:String  
+
+pasword:String 
+estaActivo:BOOLEAN
+
+fechaAlta:Date 
+
+fechaBaja:Date [0..1] 
+
+colorPelo:E_ColorPelo 
+
+colorOjo: E_ColorOjos 
+
+} 
+
+
+Class C_Ficha_Preferencia<<Entity>>{ 
+
+Edad_Maxima:Integer 
+
+Edad_minima:Integer 
+
+Peso_maximo:Integer 
+
+Peso_minimo:Integer 
+
+AlturaMaxima:Integer 
+
+AlturaMinima:Integer 
+
+ColorPelo: E_ColorPelo 
+
+ColorOjo;E_ColorOjo 
+
+Genero:E_Genero 
+
+codigoPostal:Integer [0..1]
+
+municipio:String [0..1]
+
+provincia:String [0..1]
+
+
+
+} 
+class C_Aficion{
+    Aficion:E_Aficiones
+}
+note as RN_usuarios
+<b> RN-1-0a </b> Todos los datos excepto la feha de baja son obligatorios. 
+Una fecha de baja nula repersentaa un usuario activo y
+ viceversa un usuario que se ha dado de baja logicamente.
+ <b> RN-1-0b </b> El peso(kg) y la altura(cm) son positivos
+ <b> RN-1-0z </b> Los valores por defectoson 75 kg de peso, 170 cm de altura y el color de pelo es negro.
+ <b> RN-1-1 </b>En el momento de alta todos los usuarios registrados deben de ser mayores de 18 años.
+ <b> RN-1-2 </b> El email sirve como identificador y por tanto ha de de ser unico
+ <b> RN-1-3 </b> La fecha de alta ha de ser posterior a las de nacimiento, 
+ y de existir la fecha de baja debe de ser posterior a la de alta.
+
+ end note
+
+
+ note as RN_ficha
+<b> RN-3-01 </b> Los rangos de estatura y peso han de ser positivos y la cota superior ha de ser maor o igual que la inferior.
+Cualquier otro dato de la fica de peferencias puede especificarse con objeto de afinar las búsquedas.
+Opcionalmente pueden definirse la preferencia geográfica con mayor omenor precision, especifiando el codigo postal , municipio o provincia.
+Tambien se pueden especificar valores de aficiones preferidas.
+end note
+
+RN_ficha- - C_Ficha_Preferencia
+RN_usuarios- - C_Usuario
+
+C_Usuario"1"- - "*"C_Ficha_Preferencia:TienePreferencias >
+C_Ficha_Preferencia"*"- -"*"C_Aficion
+C_Usuario"*"- - "*"C_Aficion: tienecomoAficion >
+@enduml
+
+@startuml
+
+class C_Usuario<<Entity>>{ 
+
+nombre 
+
+fecha:Date
+
+estatura:Integer  
+
+peso:Integer 
+
+genero:E_Genero 
+
+email:String  
+
+pasword:String 
+estaActivo:BOOLEAN
+
+fechaAlta:Date 
+
+fechaBaja:Date [0..1] 
+
+colorPelo:E_ColorPelo 
+
+colorOjo: E_ColorOjos 
+
+} 
+
+
+Class C_Ficha_Preferencia<<Entity>>{ 
+
+Edad_Maxima:Integer 
+
+Edad_minima:Integer 
+
+Peso_maximo:Integer 
+
+Peso_minimo:Integer 
+
+AlturaMaxima:Integer 
+
+AlturaMinima:Integer 
+
+ColorPelo: E_ColorPelo 
+
+ColorOjo;E_ColorOjo 
+
+Genero:E_Genero 
+
+codigoPostal:Integer [0..1]
+
+municipio:String [0..1]
+
+provincia:String [0..1]
+
+
+
+} 
+class C_Aficion{
+    Aficion:E_Aficiones
+}
+note as RN_usuarios
+<b> RN-1-0a </b> Todos los datos excepto la feha de baja son obligatorios. 
+Una fecha de baja nula repersentaa un usuario activo y
+ viceversa un usuario que se ha dado de baja logicamente.
+ <b> RN-1-0b </b> El peso(kg) y la altura(cm) son positivos
+ <b> RN-1-0z </b> Los valores por defectoson 75 kg de peso, 170 cm de altura y el color de pelo es negro.
+ <b> RN-1-1 </b>En el momento de alta todos los usuarios registrados deben de ser mayores de 18 años.
+ <b> RN-1-2 </b> El email sirve como identificador y por tanto ha de de ser unico
+ <b> RN-1-3 </b> La fecha de alta ha de ser posterior a las de nacimiento, 
+ y de existir la fecha de baja debe de ser posterior a la de alta.
+
+ end note
+
+
+ note as RN_ficha
+<b> RN-3-01 </b> Los rangos de estatura y peso han de ser positivos y la cota superior ha de ser maor o igual que la inferior.
+Cualquier otro dato de la fica de peferencias puede especificarse con objeto de afinar las búsquedas.
+Opcionalmente pueden definirse la preferencia geográfica con mayor omenor precision, especifiando el codigo postal , municipio o provincia.
+Tambien se pueden especificar valores de aficiones preferidas.
+end note
+
+RN_ficha- - C_Ficha_Preferencia
+RN_usuarios- - C_Usuario
+
+C_Usuario"1"- - "*"C_Ficha_Preferencia:TienePreferencias >
+C_Ficha_Preferencia"*"- -"*"C_Aficion
+C_Usuario"*"- - "*"C_Aficion: tienecomoAficion >
+@enduml
+
+PlantUML version 1.2021.17beta10(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

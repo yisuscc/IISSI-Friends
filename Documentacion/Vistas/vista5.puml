@@ -1,0 +1,127 @@
+@startuml
+/'la autora es imane Alouane'/
+class C_Usuario<<Entity>>{ 
+
+nombre 
+
+fecha:Date
+
+estatura:Integer  
+
+peso:Integer 
+
+genero:E_Genero 
+
+email:String  
+
+pasword:String 
+estaActivo:BOOLEAN
+
+fechaAlta:Date 
+
+fechaBaja:Date [0..1] 
+
+colorPelo:E_ColorPelo 
+
+colorOjo: E_ColorOjos 
+
+} 
+class C_Conversacion<<Entity>>{ 
+/'
+se deducen de la asociacion , así que no hace falta ponerlos 
+Participante1:C_Usuario 
+
+Participante2:C_Usuario 
+'/
+
+fecha_inicio: Date 
+fecha_fin: Date [0..1] 
+/new_mensaje:boolean 
+
+} 
+class C_Mensaje<<Entity>>{ 
+
+
+ Instante:Datetime
+/'
+igualr que con conversaciones, creo que no hacen falta
+emisor:C_Usuario
+receptor:C_Usuario
+'/
+Texto:String 
+
+     
+
+} 
+
+Class C_Vinculo_Amistad<<Entity>>{ 
+
+Solicitante:C_Usuario 
+
+Aceptante:C_Usuario 
+/VinculoActivo:boolean 
+
+Fecha_Solicitud: Date 
+
+Fecha_Aceptacion:Date [0..1] 
+
+Fecha_Revocación_Solicitud: Date[0..1] 
+
+Fecha_Revocación_Aceptacion:Date [0..1]
+
+} 
+
+note as RN_usuarios
+<b> RN-1-0a </b> Todos los datos excepto la feha de baja son obligatorios. 
+Una fecha de baja nula repersentaa un usuario activo y
+ viceversa un usuario que se ha dado de baja logicamente.
+ <b> RN-1-0b </b> El peso(kg) y la altura(cm) son positivos
+ <b> RN-1-0z </b> Los valores por defectoson 75 kg de peso, 170 cm de altura y el color de pelo es negro.
+ <b> RN-1-1 </b>En el momento de alta todos los usuarios registrados deben de ser mayores de 18 años.
+ <b> RN-1-2 </b> El email sirve como identificador y por tanto ha de de ser unico
+ <b> RN-1-3 </b> La fecha de alta ha de ser posterior a las de nacimiento, 
+ y de existir la fecha de baja debe de ser posterior a la de alta.
+
+ end note
+
+ note as RN_vinculos
+<b> RN-2-01 </b> La fechade solicitud de amistad es obligatoria.
+Si se ha aceptado el vinculo (fechade aceptación cumplimentada), entonces la fecha de aceptación en posterior a la de solicitud del otro contacto.
+Si el solicitante revoca la amistad(fecha revocacion solicitud cumplimentada). entonces ha de ser posterior a la solicitud.
+Si el aceptante revoca la amistad(fecha revocacion aceptacion cumplimentada) entonces ese instante sea posterior a la aceptación.
+<b> RN-2-03 </b> Que se defina un atributo booleano "VinculoActivo" que si se ha solicitado aceptado y no se ha revocado toma como valor true, y por el contrario toma el valor false.
+<b> RN-2-04  </b> Solo se admite un vinculo atcivo entre 2 usarios , Pueden existir otros vinculos historicos entre ellos, pero deben de estar inactivos.
+<b> RN-2-05 </b> Solo un usario activo(no tien fecha de baj) pueda solicitar vinculo de amistad y que un usuario activo pueda aceptar un vínculo solicitad, tanto en en el instante de la solicitud como eel de la aceptacion.
+<b> RN-3-02b </b> Un vínculo solo puede establecerse entre dos usuarios distintos.
+end note
+
+note as RN_conversaciones
+<b> RN-4-00 </b> Todos los datos de una conversacion y de un mensaje son obligatorios.
+<b> RN-4-01 </b> La conversación termine (fecha de finalización) despues del inicio(fecha de inicio).
+<b> RN-4-02 </b> Una conversacío solo puede crearse bajo un vínculo de amistad actvo, En caso contrario ni se muestra la opción  ni podrá definirse en el sistema.
+end note
+
+note as RN_mensajes
+<b> RN-4-0 </b> todos los datos de una conversadcion de un mensaje son obligatorios.
+<b> RN-4-3 </b> el instante en el que se genera ubn mensaje esté dntro del intervalo definido para una Conversación( que está activa si no tiene fecha de fin).
+Ningun mensaje puede ser posterior al cierra de una conversacion.
+end note
+
+
+
+RN_vinculos -- C_Vinculo_Amistad
+RN_conversaciones --C_Conversacion
+RN_mensajes -- C_Mensaje
+RN_usuarios-- C_Usuario
+
+C_Conversacion*--"*"C_Mensaje:compuesta
+C_Usuario"1"--"*"C_Vinculo_Amistad: solicita >
+note on link
+<b> RN-2-02 </b> Un usuario solamente puede solicitar 5 vinculos de amistad en un dia natural.
+end note
+
+
+C_Vinculo_Amistad"* "--"1"C_Usuario:recibe > 
+C_Vinculo_Amistad"1"--"*"C_Conversacion:conversan
+
+@enduml 

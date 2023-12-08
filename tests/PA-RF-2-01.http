@@ -1,0 +1,357 @@
+@BASE = http://127.0.0.1:8080/api/v1
+
+### hacer login como solicitante 
+POST {{BASE}}/register
+Content-Type: application/json
+
+{
+    "nombre":"itsjimmy",
+    "colorOjo":"castaños",
+    "email":"itsjimmy@mensajes.com",
+    "password":" itsme1234",
+    "fechaNacimiento":"1970-05-01",
+    "genero":"masculino"
+}
+### 
+
+# @name login1
+
+POST {{BASE}}/login
+Content-Type: application/json
+
+{
+   "email":"itsjimmy@mensajes.com",
+    "password":" itsme1234"
+}
+
+###Registrar varias solicitudes de vinculos 
+### LOS USUARIOS ACEPTANTES TIENEN QUE SER ACTIVOS 
+
+POST {{BASE}}/register
+Content-Type: application/json
+
+{
+    "nombre":"saraaa",
+    "colorOjo":"castaños",
+    "email":"sara1234@mensajes.com",
+    "password":"itsme1234567",
+    "fechaNacimiento":"1979-05-01",
+    "genero":"femenino"
+}
+###
+# @name loginsara
+POST {{BASE}}/login
+Content-Type: application/json
+
+{
+   "email":"sara1234@mensajes.com",
+"password":"itsme1234567"
+}
+###
+POST {{BASE}}/register
+Content-Type: application/json
+
+{
+    "nombre":"aliisanchez",
+    "colorOjo":"negro",
+    "email":"alisanchez1234@mensajes.com",
+    "password":"nevermind123",
+    "fechaNacimiento":"1983-10-01",
+    "genero":"masculino"
+}
+###
+# @name loginali
+POST {{BASE}}/login
+Content-Type: application/json
+
+{
+"email":"alisanchez1234@mensajes.com",
+    "password":"nevermind123"
+}
+###
+
+POST {{BASE}}/register
+Content-Type: application/json
+
+{
+    "nombre":"mariamr",
+    "colorOjo":"azul",
+    "email":"mariaa@mensajes.com",
+    "password":"mariaishere",
+    "fechaNacimiento":"1990-06-21",
+    "genero":"masculino"
+}
+###
+# @name loginMaria
+POST {{BASE}}/login
+Content-Type: application/json
+
+{
+   "email":"mariaa@mensajes.com",
+    "password":"mariaishere"
+}
+###
+POST {{BASE}}/register
+Content-Type: application/json
+TOKEN: {{loginMaria.response.body.sessionToken}}
+
+{
+    "solicitante":"mariaa@mensajes.com",
+    "aceptante":"itsjimmy@mensajes.com",
+    "Fecha_Solicitud":"02/12/2021" 
+}
+###
+POST {{BASE}}/register
+Content-Type: application/json
+TOKEN: {{loginsara.response.body.sessionToken}}
+
+{
+    "solicitante":"sara1234@mensajes.com",
+    "aceptante":"itsjimmy@mensajes.com",
+    "Fecha_Solicitud":"03/12/2021" 
+}
+###
+POST {{BASE}}/register
+Content-Type: application/json
+TOKEN: {{loginali.response.body.sessionToken}}
+
+{
+    "solicitante":"alisanchez1234@mensajes.com",
+    "aceptante":"itsjimmy@mensajes.com",
+    "Fecha_Solicitud":"03/01/2022" 
+}
+###
+POST {{BASE}}/register
+Content-Type: application/json
+TOKEN: {{loginali.response.body.sessionToken}}
+
+{
+    "solicitante":"alisanchez1234@mensajes.com",
+    "aceptante":"mariaa@mensajes.com",
+    "Fecha_Solicitud":"04/12/2021" 
+}
+###
+POST {{BASE}}/register
+Content-Type: application/json
+TOKEN: {{loginali.response.body.sessionToken}}
+ {
+    "solicitante":"alisanchez1234@mensajes.com",
+    "aceptante":"sara1234@mensajes.com",
+    "Fecha_Solicitud":"05/12/2021" 
+}
+
+###
+
+POST {{BASE}}/register
+Content-Type: application/json
+TOKEN: {{login1.response.body.sessionToken}}
+{
+    "solicitante":"mariaa@mensajes.com",
+    "aceptante":"itsjimmy@mensajes.com",
+    "fecha_Solicitud":"02/12/2021" ,
+    "fecha_revocación_solicitud":"03/02/2021"
+}
+###LOGING COMO ACEPTANTES
+
+### 
+POST {{BASE}}/login
+Content-Type: application/json
+
+{
+   "email":"itsjimmy@mensajes.com",
+    "password":"itsme1234"
+}
+
+
+POST {{BASE}}/register
+Content-Type: application/json
+TOKEN: {{loginali.response.body.sessionToken}}
+
+{
+    "solicitante":"alisanchez1234@mensajes.com",
+    "aceptante":"sara1234@mensajes.com",
+    "fecha_Solicitud":"05/12/2021",
+    "fecha_Aceptacion":"06/12/2021"
+}
+###
+POST {{BASE}}/register
+Content-Type: application/json
+TOKEN: {{loginali.response.body.sessionToken}}
+
+{
+    "solicitante":"alisanchez1234@mensajes.com",
+    "aceptante":"itsjimmy@mensajes.com",
+    "fecha_Solicitud":"03/01/2022",
+    "fecha_revocación_solicitud":"03/01/2022"
+}
+
+###volver a revocar a un vinculo aceptado como solicitante 
+
+
+POST {{BASE}}/register
+Content-Type: application/json
+TOKEN: {{loginali.response.body.sessionToken}}
+
+{
+    "solicitante":"alisanchez1234@mensajes.com",
+    "aceptante":"sara1234@mensajes.com",
+    "fecha_Solicitud":"05/12/2021",
+    "fecha_Aceptacion":"06/12/2021",
+    "fecha_revocacion_aceptacion":"07/12/2021"
+}
+
+###Como solicitante que ha registrado cinco vinculos en un día,registrar el sexto
+###Primero crear usuarios 
+
+POST {{BASE}}/register
+Content-Type: application/json
+
+{
+    "nombre":"ayaaa",
+    "colorOjo":"azul",
+    "email":"aya123@mensajes.com",
+    "password":"sevilla2022",
+    "fechaNacimiento":"1998-10-12",
+    "genero":"masculino"
+}
+# @name loginaya
+POST {{BASE}}/login
+Content-Type: application/json
+
+{
+   "email":"aya123@mensajes.com",
+    "password":"sevilla2022"
+}
+###
+POST {{BASE}}/register
+Content-Type: application/json
+
+{
+    "nombre":"yasmiin",
+    "colorOjo":"marron",
+    "email":"yasmiin123@mensajes.com",
+    "password":" itsme1234789",
+    "fechaNacimiento":"1999-05-01",
+    "genero":"masculino"
+}
+###
+# @name loginyasmn
+POST {{BASE}}/login
+Content-Type: application/json
+
+{
+   "email":"yasmiin123@mensajes.com",
+    "password":"itsme1234789"
+}
+###
+
+POST {{BASE}}/register
+Content-Type: application/json
+{
+    "nombre":"salmaaa",
+    "colorOjo":"marron",
+    "email":"salma123@mensajes.com",
+    "password":"helpme123",
+    "fechaNacimiento":"1979-06-12",
+    "genero":"masculino"
+}
+###
+# @name loginsalma
+POST {{BASE}}/login
+Content-Type: application/json
+
+{
+   "email":"salma123@mensajes.com",
+    "password":"helpme123"
+}
+
+
+}
+POST {{BASE}}/register
+Content-Type: application/json
+TOKEN: {{loginsalma.response.body.sessionToken}}
+
+{
+
+    "solicitante":"salma123@mensajes.com",
+    "aceptante":"mariaa@mensajes.com",
+    "Fecha_Solicitud":"08/01/2022" 
+}
+###
+POST {{BASE}}/register
+Content-Type: application/json
+TOKEN: {{loginsalma.response.body.sessionToken}}
+
+{
+    "solicitante":"salma123@mensajes.com",
+    "aceptante":"yasmiin123@mensajes.com",
+    "Fecha_Solicitud":"08/01/2022" 
+}
+###
+POST {{BASE}}/register
+Content-Type: application/json
+TOKEN: {{loginsalma.response.body.sessionToken}}
+
+{
+    "solicitante":"salma123@mensajes.com",
+    "aceptante":"itsjimmy@mensajes.com",
+    "Fecha_Solicitud":"08/01/2022" 
+}
+###
+POST {{BASE}}/register
+Content-Type: application/json
+TOKEN: {{loginsalma.response.body.sessionToken}}
+
+{
+    "solicitante":"salma123@mensajes.com",
+    "aceptante":"sara1234@mensajes.com",
+    "Fecha_Solicitud":"08/01/2022" 
+}
+###
+POST {{BASE}}/register
+Content-Type: application/json
+TOKEN: {{loginsalma.response.body.sessionToken}}
+
+{
+    "solicitante":"salma123@mensajes.com",
+    "aceptante":"alisanchez1234@mensajes.com",
+    "Fecha_Solicitud":"08/01/2022" 
+}
+###
+
+POST {{BASE}}/register
+Content-Type: application/json
+TOKEN: {{loginsalma.response.body.sessionToken}}
+
+{
+    "solicitante":"salma123@mensajes.com",
+    "aceptante":"aya123@mensajes.com",
+    "Fecha_Solicitud":"08/01/2022" 
+}
+
+###solicitante con un vinculo actiuvo con otro usuario, intentar generar un segundo vinculo
+
+
+POST {{BASE}}/register
+Content-Type: application/json
+ TOKEN: {{loginali.response.body.sessionToken}}
+
+ {
+    "solicitante":"alisanchez1234@mensajes.com",
+    "aceptante":"sara1234@mensajes.com",
+    "vinculoActivo":"sí", 
+    "fecha_Solicitud":"05/12/2021",
+    "fecha_Aceptacion":"06/12/2021"
+}
+###
+POST {{BASE}}/register
+Content-Type: application/json
+TOKEN: {{loginali.response.body.sessionToken}}
+
+{
+    "solicitante":"alisanchez1234@mensajes.com",
+    "aceptante":"aya123@mensajes.com",
+    "vinculoActivo":"no", 
+    "fecha_Solicitud":"27/12/2021"
+}
+

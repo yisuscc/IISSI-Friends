@@ -1,0 +1,179 @@
+@BASE = http://127.0.0.1:8080/api/v1
+
+###
+GET {{BASE}}/usuarios
+
+### registra a un usaurio con todos los datos obligatorios
+POST {{BASE}}/register
+Content-Type: application/json
+
+{
+    "nombre":"Michael Gary Scott",
+    "colorOjo":"castaños",
+    "colorPelo": "negro",
+    "email":"michaelscott@dundermifflin.com",
+     "fechaAlta": "2021-12-31",
+    "password":"ThreathLevelMidnight",
+    "estatura":"175",
+    "fechaNacimiento":"1965-03-15",
+    "genero":"masculino",
+    "peso":"78"
+
+}
+
+### registra a un usuario sin datos obligatorios
+POST {{BASE}}/register
+Content-Type: application/json
+
+{
+    "nombre":"Señor Normal",
+    "colorOjo":"negro",
+    "email":"normal@normal.net",
+    "password":" 123445",
+    "fechaNacimiento":"1970-01-01",
+    "genero":"masculino"
+}
+
+### 
+POST {{BASE}}/register
+Content-Type: application/json
+
+{
+    "nombre":"existenciaOvnis",
+    "colorOjo":"negro",
+    "email":"losovnis@ufoland.es",
+    "password":" 123445",
+    "fechaNacimiento":"1970-01-01",
+    "genero":"masculino"
+}
+###
+# @name login1
+POST {{BASE}}/login
+Content-Type: application/json
+
+{
+     "email":"normal@normal.net",
+    "password":" 123445"
+}
+
+### hacer brrar a un usaurio
+DELETE {{BASE}}/usuarios/normal@normal.net
+TOKEN: {{login1.response.body.sessionToken}}
+###hacer klogin de un usario existente
+# @name login2
+POST {{BASE}}/login
+Content-Type: application/json
+
+{
+    "email":"michaelscott@dundermifflin.com",
+    "password":"ThreathLevelMidnight"
+}
+
+
+###  dar de baja a un usario activo
+ PUT {{BASE}}/usuarios/michaelscott@dundermifflin.com
+ Content-Type: application/json
+ TOKEN: {{login2.response.body.sessionToken}}
+
+ {
+      "colorOjo": "casta\u00f1os",
+    "colorPelo": "negro",
+    "email": "michaelscott@dundermifflin.com",
+    "estaActivo": 1,
+    "estatura": 175,
+    "fechaAlta": "2021-12-31",
+    "fechaBaja": "2022-12-31",
+    "fechaNacimiento": "1970-01-01",
+    "genero": "masculino",
+    "nombre": "Michael Gary Scott",
+    "peso": 78,
+    "usuarioID": 1 ,
+     "password":"ThreathLevelMidnight"
+
+ }
+
+###registrar a un usuario menor de edad
+ 
+POST {{BASE}}/register
+Content-Type: application/json
+
+{
+    "nombre":"Niño",
+    "colorOjo":"castaños",
+    "colorPelo": "negro",
+    "email":"pokemon@adulto.com",
+    "password":"gato",
+    "fechaNacimiento":"2020-01-01",
+    "genero":"masculino"
+    
+}
+
+### registrar un email duplicado
+POST {{BASE}}/register
+Content-Type: application/json
+
+{
+    "nombre":"señora normal",
+    "colorOjo":"negro",
+    "email":"michaelscott@dundermifflin.com",
+    "password":" 123445",
+    "fechaNacimiento":"1970-01-01",
+    "genero":"femenino"
+}
+
+### itroducir rangos de fecha inconsistentes
+POST {{BASE}}/register
+Content-Type: application/json
+
+{
+    "nombre":"Eleuterio",
+    "colorOjo":"negro",
+    "email":"pzzzaman@qwert.net",
+    "password":" 123445",
+    "fechaNacimiento":"2000-12-10",
+  "fechaAlta": "2023-12-31",
+    "fechaBaja": "2022-12-31",
+    "genero":"masculino"
+}
+### 
+POST {{BASE}}/register
+Content-Type: application/json
+
+{
+    "nombre":"Eleuteria",
+    "colorOjo":"negro",
+    "email":"pzzzaman@asdf.net",
+    "password":" 123445",
+    "fechaNacimiento":"2024-12-10",
+  "fechaAlta": "2023-12-31",
+    "fechaBaja": "2022-12-31",
+    "genero":"femenino"
+}
+### hacer login de un usuario inactivo
+POST {{BASE}}/login
+Content-Type: application/json
+
+{
+    "email":"adela30@yahoo.com",
+    "password":"recorcholis"
+}
+
+### hacer login de un usuario inactivo
+POST {{BASE}}/login
+Content-Type: application/json
+
+{
+    "email":"michaelscott@dundermifflin.com",
+    "password":"ThreathLevelMidnight"
+}
+### hacer login de un usuario activo con password incorrecta
+POST {{BASE}}/login
+Content-Type: application/json
+
+{
+     "email":"losovnis@ufoland.es",
+    "password":" 12eeeee"
+}
+
+
+

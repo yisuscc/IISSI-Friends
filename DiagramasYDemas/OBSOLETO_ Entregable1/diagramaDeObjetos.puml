@@ -1,0 +1,252 @@
+@startuml Diagrama de Objetos IISSI Friends 
+title Diagrama de Objetos IISSI Friends 
+
+
+object  ubicacion1{ 
+
+calle = "Avenida Reina Mercedes" 
+
+codigoPostal = 41012 
+
+municipio = "Sevilla"
+
+provincia = "Sevilla" 
+
+} 
+
+
+object ManuelSantana{ 
+
+nombre  = "Manuel Santana"
+
+fecha = 01/08/1960
+
+estatura: = 178  
+
+peso = 70
+
+genero = masculino 
+
+email = manueltriana60@gmail.com  
+
+pasword = mnfwkje342
+
+fechaAlta = 16/10/2021 
+
+colorPelo = gris 
+
+colorOjo: castaños
+
+direccion = C_Ubicacion1 
+
+Lista_aficiones = Viajar, Arte, Libros, Pasear.
+
+} 
+object MiriamSanchez{ 
+
+nombre  = "Miriam Sánchez"
+
+fecha = 10/05/1994
+
+estatura: = 165  
+
+peso = 52
+
+genero = femenino
+
+email = miriamsanchez123@gmail.com  
+
+pasword = miriam1234
+
+fechaAlta = 28/08/2021 
+
+colorPelo = negro
+
+colorOjo: verdes
+
+direccion = ubicacion2 
+
+Lista_aficiones = Bailar, Dibujar, Libros, fotografía.
+
+} 
+
+object ubicacion2{ 
+
+calle = "Calle Puerto de la molina" 
+
+codigoPostal = 41006 
+
+municipio = "Sevilla"
+
+provincia = "Sevilla" 
+
+}
+object ubicacionPref{
+    codigoPostal = 41006 
+}
+
+object ubicacionPref2{
+    codigoPostal = 41006 
+    calle = Puerto de la molina
+}
+
+object AsuncionTrancon{ 
+
+nombre  = "Asunción Trancón"
+
+fecha = 18/05/1956
+
+estatura: = 179
+
+peso = 80
+
+genero = femenino
+
+email = asunciontrancon123@gmail.com  
+
+pasword = sevilla1956
+
+fechaAlta = 01/08/2021 
+
+colorPelo = gris
+
+colorOjo: castaños
+
+direccion = ubicacion2
+
+Lista_aficiones = bailar, fotografía,peliculas, viajar.
+
+} 
+ 
+
+object Conversacion1{ 
+
+Participante1 = manueltriana60@gmail.com  
+
+Participante2 = asunciontrancon123@gmail.com 
+
+fecha_inicio = 20/10/2021  
+
+fecha_fin =  30/10/2021
+
+new_mensaje: False 
+
+} 
+
+
+
+object Mensaje2{ 
+emisor:manueltriana60@gmail.com  
+receptor:asunciontrancon123@gmail.com 
+
+Fecha = 20/10/2021 
+
+Hora = 18:23 
+
+Texto = "Hola, ¿Te acuerdas de mí?" 
+
+} 
+object Mensaje3{ 
+emisor:asunciontrancon123@gmail.com 
+receptor:manueltriana60@gmail.com  
+
+Fecha = 30/10/2021 
+
+Hora = 16:43 
+
+Texto = "No, adiós" 
+
+} 
+
+object Fotos1{ 
+
+Url = "https://casadetriana.es/wp-content/uploads/2019/09/El-barrio-m%C3%A1s-emblem%C3%A1tico-de-Sevilla-Triana.jpg" 
+
+nombre = "El río a su paso por Triana"
+
+Descripción = "Triana, lo más bonito del mundo entero" 
+
+} 
+  
+
+object Vinculos_Amistad1{ 
+
+Solicitante = manueltriana60@gmail.com
+
+Aceptante = asunciontrancon123@gmail.com 
+
+Fecha_Solicitud = 26/10/2021 
+
+Fecha_Aceptacion = 27/10/2021
+
+} 
+
+object Vinculos_Amistad2{ 
+
+Solicitante = asunciontrancon123@gmail.com
+
+Aceptante = miriamsanchez123@gmail.com
+
+Fecha_Solicitud = 28/10/2021 
+
+
+
+} 
+
+object Busqueda1{ 
+    Ficha_Busqueda = FichaPref
+    ubicacion = ubicacionPref
+
+} 
+
+object Busqueda2{ 
+    ubicacion = ubicacionPref2
+
+} 
+
+object FichaPref{ 
+
+Edad_Maxima = 68 
+
+Edad_minima = 30 
+
+Peso_maximo = 80 
+
+Peso_minimo = 50 
+
+AlturaMaxima = 1,80 
+
+AlturaMinima = 1,55 
+
+ColorPelo = gris 
+
+ColorOjo = negro 
+
+Genero = femenino 
+
+} 
+ubicacion1--> ManuelSantana: residenciaDe
+ubicacion2--> MiriamSanchez: residenciaDe
+ubicacion2-->AsuncionTrancon:residenciaDe
+
+
+
+
+Busqueda1<-- ubicacionPref
+Busqueda2<-- ubicacionPref2
+FichaPref--> Busqueda1
+ManuelSantana-->Fotos1: sube
+Conversacion1*--"*"Mensaje2:compuesta
+Conversacion1*--"*"Mensaje3:compuesta
+ManuelSantana -->Busqueda1:RealizaBusqueda
+AsuncionTrancon -->Busqueda2:RealizaBusqueda
+Busqueda1-->AsuncionTrancon:BuscaA
+Busqueda2-->MiriamSanchez:BuscaA
+
+ManuelSantana-->Vinculos_Amistad1: solicita
+AsuncionTrancon-->Vinculos_Amistad2: solicita
+Vinculos_Amistad1-->AsuncionTrancon:recibe 
+Vinculos_Amistad2-->MiriamSanchez:recibe 
+ManuelSantana<-->Conversacion1:conversan
+AsuncionTrancon<-->Conversacion1:conversan
+@enduml

@@ -1,0 +1,60 @@
+{
+    "getAll": {
+        "route": "/aficiones_preferidas",
+        "method": "GET",
+        "sql": "SELECT * FROM aficiones_preferidas",
+        "auth_required": false,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Gets all aficiones_preferidas"
+    },
+    "getById": {
+        "route": "/aficiones_preferidas/$aficionesPreferidasID",
+        "method": "GET",
+        "sql": "SELECT * FROM aficiones_preferidas WHERE aficionesPreferidasID = $aficionesPreferidasID",
+        "auth_required": false,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Gets an entry from 'aficiones_preferidas' by its primary key"
+    },
+    "create": {
+        "route": "/aficiones_preferidas",
+        "method": "POST",
+        "sql": "INSERT INTO aficiones_preferidas(aficionID, fichaID) VALUES ($aficionID, $fichaID)",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Creates a new entry in 'aficiones_preferidas'",
+        "request_body_params": [
+            "aficionID",
+            "fichaID"
+        ]
+    },
+    "update": {
+        "route": "/aficiones_preferidas/$aficionesPreferidasID",
+        "method": "PUT",
+        "sql": "UPDATE aficiones_preferidas SET aficionID = $aficionID, fichaID = $fichaID WHERE aficionesPreferidasID = $aficionesPreferidasID",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Updates an existing entry in 'aficiones_preferidas' by its primary key",
+        "request_body_params": [
+            "aficionID",
+            "fichaID"
+        ]
+    },
+    "delete": {
+        "route": "/aficiones_preferidas/$aficionesPreferidasID",
+        "method": "DELETE",
+        "sql": "DELETE FROM aficiones_preferidas WHERE aficionesPreferidasID = $aficionesPreferidasID",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Deletes an existing entry in 'aficiones_preferidas' by its primary key"
+    }
+}

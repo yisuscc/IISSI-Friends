@@ -1,0 +1,98 @@
+@BASE = http://127.0.0.1:8080/api/v1
+###
+GET {{BASE}}/aficiones
+
+### registra a un usuar
+POST {{BASE}}/register
+Content-Type: application/json
+
+{
+    "nombre":"madame aficiones",
+    "colorOjo":"negro",
+    "email":"ilove@aficiones.com",
+    "password":" 123445",
+    "fechaNacimiento":"1970-01-01",
+    "genero":"femenino"
+}
+###hacer login de un usuario existente
+
+# @name login1
+POST {{BASE}}/login
+Content-Type: application/json
+
+{
+     "email":"ilove@aficiones.com",
+    "password":" 123445"
+    }
+
+###registra aficiones nuevas
+POST {{BASE}}/aficiones
+Content-Type: application/json
+TOKEN: {{login1.response.body.sessionToken}}
+
+{
+    "aficion":"llorar"
+}
+###registra aficiones nuevas
+POST {{BASE}}/aficiones
+Content-Type: application/json
+TOKEN: {{login1.response.body.sessionToken}}
+
+{
+    "aficion":"bricolaje"
+}
+
+###registra aficiones nuevas
+POST {{BASE}}/aficiones
+Content-Type: application/json
+TOKEN: {{login1.response.body.sessionToken}}
+
+{
+    
+    "aficion":"emborracharse"
+}
+
+###registra aficiones nuevas
+POST {{BASE}}/aficiones
+Content-Type: application/json
+TOKEN: {{login1.response.body.sessionToken}}
+
+{
+    "aficion":"procrastinar"
+}
+
+### modificar aficiones
+PUT {{BASE}}/aficiones/0
+Content-Type: application/json
+TOKEN: {{login1.response.body.sessionToken}}
+
+{
+    "aficion":"streaming"
+}
+
+### borrar aficiones que no han sido elegidas por nimgun usuario
+DELETE {{BASE}}/aficiones/13
+TOKEN: {{login1.response.body.sessionToken}}
+
+### Registrar aficiones a un usuario
+POST  {{BASE}}/aficiones_usuarios
+Content-Type: application/json
+TOKEN: {{login1.response.body.sessionToken}}
+
+{
+    "aficionID":"4",
+    "email":"ilove@aficiones.com"
+}
+
+### borrar aun usuario con fotos
+DELETE {{BASE}}/usuarios/ilove@aficiones.com
+TOKEN: {{login1.response.body.sessionToken}}
+
+###  borrar aficionde lalista que haya sido escogida por al menos un usuario
+DELETE {{BASE}}/aficiones/4
+TOKEN: {{login1.response.body.sessionToken}}
+
+
+
+
+  

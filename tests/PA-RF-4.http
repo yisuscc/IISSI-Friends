@@ -1,0 +1,129 @@
+@BASE = http://127.0.0.1:8080/api/v1
+
+### hacer login como solicitante 
+POST {{BASE}}/register
+Content-Type: application/json
+
+{
+    "nombre":"itsjimmy",
+    "colorOjo":"marron",
+    "email":"itsjimmy@mensajes.com",
+    "password":" itsme1234",
+    "fechaNacimiento":"1970-05-01",
+    "genero":"masculino"
+}
+
+### 
+
+# @name loginjimmy
+POST {{BASE}}/login
+Content-Type: application/json
+
+{
+   "email":"itsjimmy@mensajes.com",
+    "password":" itsme1234"
+}
+
+###
+POST {{BASE}}/register
+Content-Type: application/json
+
+{
+    "nombre":"saraaa",
+    "colorOjo":"marron",
+    "email":"sara1234@mensajes.com",
+    "password":"itsme1234567",
+    "fechaNacimiento":"1979-05-01",
+    "genero":"femenino"
+}
+
+###
+# @name loginsara
+
+POST {{BASE}}/login
+Content-Type: application/json
+
+{
+   "email":"sara1234@mensajes.com",
+    "password":"itsme1234567"
+}
+
+###
+
+###iniciar una conversacion con un vinculo activo 
+POST {{BASE}}/vinculos_amistades
+Content-Type: application/json
+TOKEN: {{loginsara.response.body.sessionToken}}
+
+{
+    "email1":"sara1234@mensajes.com",
+    "email2":"itsjimmy@mensajes.com",
+    "fecha_solicitud":"2021-05-01"
+}
+
+###
+PUT {{BASE}}/vinculos_amistades/13
+Content-Type: application/json
+TOKEN: {{loginjimmy.response.body.sessionToken}}
+ 
+ {
+ "email1":"sara1234@mensajes.com",
+    "email2":"itsjimmy@mensajes.com",
+    "fecha_solicitud":"2021-05-01",
+    "fecha_aceptacion":"2021-05-21"
+}
+###
+###Inicio de la conversacion
+POST {{BASE}}/conversaciones
+Content-Type: application/json
+TOKEN: {{loginsara.response.body.sessionToken}}
+
+{
+   "vinculoID":0,
+    "fecha_inicio":"2022-01-01",
+    "new_message":true
+}
+
+###
+###Registrar dos mensajes
+POST {{BASE}}/mensajes
+Content-Type: application/json
+TOKEN: {{loginsara.response.body.sessionToken}}
+
+{
+    "conversacionID ":"4",
+    "texto":"Hola!" 
+}
+
+###
+POST {{BASE}}/mensajes
+Content-Type: application/json
+TOKEN: {{loginjimmy.response.body.sessionToken}}
+
+{
+   "conversacionID ":"4",
+    "texto":"Hola" 
+}
+
+###FINALIZAR LA conversacion
+###
+PUT  {{BASE}}/conversaciones/4
+Content-Type: application/json
+TOKEN: {{loginsara.response.body.sessionToken}}
+
+{
+     "vinculoID":0,
+    "fecha_inicio":"2022-01-01",
+    "new_mensaje":"0" 
+}
+
+###
+POST {{BASE}}/conversaciones
+Content-Type: application/json
+TOKEN: {{loginjimmy.response.body.sessionToken}}
+
+{
+     "vinculoID":"0",
+    "fecha_inicio":"2022-01-9",
+    "new_message":"1" 
+}

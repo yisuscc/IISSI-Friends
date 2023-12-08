@@ -1,0 +1,80 @@
+@startuml
+/'la autora es imane Alouane'/
+class C_Conversacion<<Entity>>{ 
+/'
+se deducen de la asociacion , así que no hace falta ponerlos 
+Participante1:C_Usuario 
+
+Participante2:C_Usuario 
+'/
+
+fecha_inicio: Date 
+fecha_fin: Date [0..1] 
+/new_mensaje:boolean 
+
+} 
+
+class C_Mensaje<<Entity>>{ 
+INstante: Datetime
+/'
+igualr que con conversaciones, creo que no hacen falta
+emisor:C_Usuario
+receptor:C_Usuario
+'/
+Texto:String 
+
+     
+
+} 
+
+Class C_Vinculo_Amistad<<Entity>>{ 
+
+Solicitante:C_Usuario 
+
+Aceptante:C_Usuario 
+/VinculoActivo:boolean 
+
+Fecha_Solicitud: Date 
+
+Fecha_Aceptacion:Date [0..1] 
+
+Fecha_Revocación_Solicitud: Date[0..1] 
+
+Fecha_Revocación_Aceptacion:Date [0..1]
+
+} 
+
+note as RN_vinculos
+<b> RN-2-01 </b> La fechade solicitud de amistad es obligatoria.
+Si se ha aceptado el vinculo (fechade aceptación cumplimentada), entonces la fecha de aceptación en posterior a la de solicitud del otro contacto.
+Si el solicitante revoca la amistad(fecha revocacion solicitud cumplimentada). entonces ha de ser posterior a la solicitud.
+Si el aceptante revoca la amistad(fecha revocacion aceptacion cumplimentada) entonces ese instante sea posterior a la aceptación.
+<b> RN-2-03 </b> Que se defina un atributo booleano "VinculoActivo" que si se ha solicitado aceptado y no se ha revocado toma como valor true, y por el contrario toma el valor false.
+<b> RN-2-04  </b> Solo se admite un vinculo atcivo entre 2 usarios , Pueden existir otros vinculos historicos entre ellos, pero deben de estar inactivos.
+<b> RN-2-05 </b> Solo un usario activo(no tien fecha de baj) pueda solicitar vinculo de amistad y que un usuario activo pueda aceptar un vínculo solicitad, tanto en en el instante de la solicitud como eel de la aceptacion.
+<b> RN-3-02b </b> Un vínculo solo puede establecerse entre dos usuarios distintos.
+end note
+
+
+note as RN_conversaciones
+<b> RN-4-00 </b> Todos los datos de una conversacion y de un mensaje son obligatorios.
+<b> RN-4-01 </b> La conversación termine (fecha de finalización) despues del inicio(fecha de inicio).
+<b> RN-4-02 </b> Una conversacío solo puede crearse bajo un vínculo de amistad actvo, En caso contrario ni se muestra la opción  ni podrá definirse en el sistema.
+end note
+
+note as RN_mensajes
+<b> RN-4-0 </b> todos los datos de una conversadcion de un mensaje son obligatorios.
+<b> RN-4-3 </b> el instante en el que se genera ubn mensaje esté dntro del intervalo definido para una Conversación( que está activa si no tiene fecha de fin).
+Ningun mensaje puede ser posterior al cierra de una conversacion.
+end note
+
+
+RN_vinculos -- C_Vinculo_Amistad
+RN_conversaciones --C_Conversacion
+RN_mensajes -- C_Mensaje
+
+
+C_Conversacion*--"*"C_Mensaje:compuesta
+
+C_Vinculo_Amistad"1"--"*"C_Conversacion:conversan
+@enduml 

@@ -1,0 +1,70 @@
+{
+    "getAll": {
+        "route": "/vinculos_amistades",
+        "method": "GET",
+        "sql": "SELECT * FROM vinculos_amistades",
+        "auth_required": false,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Gets all vinculos_amistades"
+    },
+    "getById": {
+        "route": "/vinculos_amistades/$vinculoID",
+        "method": "GET",
+        "sql": "SELECT * FROM vinculos_amistades WHERE vinculoID = $vinculoID",
+        "auth_required": false,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Gets an entry from 'vinculos_amistades' by its primary key"
+    },
+    "create": {
+        "route": "/vinculos_amistades",
+        "method": "POST",
+        "sql": "INSERT INTO vinculos_amistades(email1, email2, fecha_solicitud, fecha_aceptaci\u00f3n, fecha_revocacion_solicitud, fecha_revocacion_aceptaci\u00f3n, VinculoActivo) VALUES ($email1, $email2, $fecha_solicitud, $fecha_aceptaci\u00f3n, $fecha_revocacion_solicitud, $fecha_revocacion_aceptaci\u00f3n, $VinculoActivo)",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Creates a new entry in 'vinculos_amistades'",
+        "request_body_params": [
+            "email1",
+            "email2",
+            "fecha_solicitud",
+            "fecha_aceptaci\u00f3n",
+            "fecha_revocacion_solicitud",
+            "fecha_revocacion_aceptaci\u00f3n",
+            "VinculoActivo"
+        ]
+    },
+    "update": {
+        "route": "/vinculos_amistades/$vinculoID",
+        "method": "PUT",
+        "sql": "UPDATE vinculos_amistades SET email1 = $email1, email2 = $email2, fecha_solicitud = $fecha_solicitud, fecha_aceptaci\u00f3n = $fecha_aceptaci\u00f3n, fecha_revocacion_solicitud = $fecha_revocacion_solicitud, fecha_revocacion_aceptaci\u00f3n = $fecha_revocacion_aceptaci\u00f3n, VinculoActivo = $VinculoActivo WHERE vinculoID = $vinculoID",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Updates an existing entry in 'vinculos_amistades' by its primary key",
+        "request_body_params": [
+            "email1",
+            "email2",
+            "fecha_solicitud",
+            "fecha_aceptaci\u00f3n",
+            "fecha_revocacion_solicitud",
+            "fecha_revocacion_aceptaci\u00f3n",
+            "VinculoActivo"
+        ]
+    },
+    "delete": {
+        "route": "/vinculos_amistades/$vinculoID",
+        "method": "DELETE",
+        "sql": "DELETE FROM vinculos_amistades WHERE vinculoID = $vinculoID",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Deletes an existing entry in 'vinculos_amistades' by its primary key"
+    }
+}

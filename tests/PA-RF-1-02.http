@@ -1,0 +1,70 @@
+### IISSI-1. Curso 2021/22.
+### Profesores: Alfonso Márquez, Daniel Ayala, Carlos Arévalo, Inma Hernández, Octavio Martín, David Ruiz
+### Proyecto de Evaluación Continua. IISSI-Friends
+### Ejemplo de test HTTP para la prueba de aceptación PA-RF-1-02
+
+### Pasos a seguir:
+### 1.- Crear proyecto silence en blanco
+### 2.- Configurar adecuadamente settings.py
+### 3.- Añadir scripts createDB.sql y populate.sql
+### 4.- Ejecutar: silence createdb, silence createapi, silence createtests y silence run
+### 5.- Copiar este archivo a carpeta tests. Fíjese que en la carpera auto
+### dispone de plantillas para hacer tests genéricos
+
+
+### URL base de la API
+@BASE = http://127.0.0.1:8080/api/v1
+
+### Ejecutar peticiones una a una después de poblar la base de datos
+### Es importate que en cada PA-XX.http previamente se carguen los datos iniciales
+
+### Hacer login de un usuario activo existente, suministrando password correcta (OK)
+### en la variable login se almacena el resultado de la solicitud.
+### usar sólo un caractrer '#' más abajo
+# @name login
+POST {{BASE}}/login
+Content-Type: application/json
+
+{
+    "email": "druiz@us.es",
+    "passwd": "druiz"
+}
+
+### Registrar hasta cinco fotos (OK)
+### Cuarta foto
+POST {{BASE}}/photos
+Content-Type: application/json
+Token: {{login.response.body.sessionToken}}
+
+{
+    "idUser": 1,
+    "url": "https://picsum.photos/200/300?random=10"
+}
+
+### Quinta foto
+POST {{BASE}}/photos
+Content-Type: application/json
+Token: {{login.response.body.sessionToken}}
+
+{
+    "idUser": 1,
+    "url": "https://picsum.photos/200/300?random=11"
+}
+
+### Borrar un usuario con fotos (ERROR)
+DELETE {{BASE}}/users/1
+Token: {{login.response.body.sessionToken}}
+
+### Registrar la sexta foto (ERROR)
+POST {{BASE}}/photos
+Content-Type: application/json
+Token: {{login.response.body.sessionToken}}
+
+{
+    "idUser": 1,
+    "url": "https://picsum.photos/200/300?random=12"
+}
+
+### Borrar fotos (OK)
+DELETE {{BASE}}/photos/1
+Token: {{login.response.body.sessionToken}}

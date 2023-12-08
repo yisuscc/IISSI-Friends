@@ -1,0 +1,66 @@
+{
+    "getAll": {
+        "route": "/fotos",
+        "method": "GET",
+        "sql": "SELECT * FROM fotos",
+        "auth_required": false,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Gets all fotos"
+    },
+    "getById": {
+        "route": "/fotos/$fotoID",
+        "method": "GET",
+        "sql": "SELECT * FROM fotos WHERE fotoID = $fotoID",
+        "auth_required": false,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Gets an entry from 'fotos' by its primary key"
+    },
+    "create": {
+        "route": "/fotos",
+        "method": "POST",
+        "sql": "INSERT INTO fotos(nombre, url, email, descripcion, fecha) VALUES ($nombre, $url, $email, $descripcion, $fecha)",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Creates a new entry in 'fotos'",
+        "request_body_params": [
+            "nombre",
+            "url",
+            "email",
+            "descripcion",
+            "fecha"
+        ]
+    },
+    "update": {
+        "route": "/fotos/$fotoID",
+        "method": "PUT",
+        "sql": "UPDATE fotos SET nombre = $nombre, url = $url, email = $email, descripcion = $descripcion, fecha = $fecha WHERE fotoID = $fotoID",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Updates an existing entry in 'fotos' by its primary key",
+        "request_body_params": [
+            "nombre",
+            "url",
+            "email",
+            "descripcion",
+            "fecha"
+        ]
+    },
+    "delete": {
+        "route": "/fotos/$fotoID",
+        "method": "DELETE",
+        "sql": "DELETE FROM fotos WHERE fotoID = $fotoID",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Deletes an existing entry in 'fotos' by its primary key"
+    }
+}

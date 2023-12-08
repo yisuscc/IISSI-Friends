@@ -1,0 +1,60 @@
+{
+    "getAll": {
+        "route": "/aficiones_usuarios",
+        "method": "GET",
+        "sql": "SELECT * FROM aficiones_usuarios",
+        "auth_required": false,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Gets all aficiones_usuarios"
+    },
+    "getById": {
+        "route": "/aficiones_usuarios/$aficionesUsuarioID",
+        "method": "GET",
+        "sql": "SELECT * FROM aficiones_usuarios WHERE aficionesUsuarioID = $aficionesUsuarioID",
+        "auth_required": false,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Gets an entry from 'aficiones_usuarios' by its primary key"
+    },
+    "create": {
+        "route": "/aficiones_usuarios",
+        "method": "POST",
+        "sql": "INSERT INTO aficiones_usuarios(aficionID, email) VALUES ($aficionID, $email)",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Creates a new entry in 'aficiones_usuarios'",
+        "request_body_params": [
+            "aficionID",
+            "email"
+        ]
+    },
+    "update": {
+        "route": "/aficiones_usuarios/$aficionesUsuarioID",
+        "method": "PUT",
+        "sql": "UPDATE aficiones_usuarios SET aficionID = $aficionID, email = $email WHERE aficionesUsuarioID = $aficionesUsuarioID",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Updates an existing entry in 'aficiones_usuarios' by its primary key",
+        "request_body_params": [
+            "aficionID",
+            "email"
+        ]
+    },
+    "delete": {
+        "route": "/aficiones_usuarios/$aficionesUsuarioID",
+        "method": "DELETE",
+        "sql": "DELETE FROM aficiones_usuarios WHERE aficionesUsuarioID = $aficionesUsuarioID",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Deletes an existing entry in 'aficiones_usuarios' by its primary key"
+    }
+}

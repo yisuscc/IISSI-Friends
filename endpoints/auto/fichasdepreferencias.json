@@ -1,0 +1,82 @@
+{
+    "getAll": {
+        "route": "/fichasdepreferencias",
+        "method": "GET",
+        "sql": "SELECT * FROM fichasDePreferencias",
+        "auth_required": false,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Gets all fichasDePreferencias"
+    },
+    "getById": {
+        "route": "/fichasdepreferencias/$fichaID",
+        "method": "GET",
+        "sql": "SELECT * FROM fichasDePreferencias WHERE fichaID = $fichaID",
+        "auth_required": false,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Gets an entry from 'fichasDePreferencias' by its primary key"
+    },
+    "create": {
+        "route": "/fichasdepreferencias",
+        "method": "POST",
+        "sql": "INSERT INTO fichasDePreferencias(edad_maxima, edad_minima, codigoPostal, municipio, provincia, estatura_maxima, estatura_minima, peso_maximo, peso_minimo, email, colorPelo, colorOjo, genero) VALUES ($edad_maxima, $edad_minima, $codigoPostal, $municipio, $provincia, $estatura_maxima, $estatura_minima, $peso_maximo, $peso_minimo, $email, $colorPelo, $colorOjo, $genero)",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Creates a new entry in 'fichasDePreferencias'",
+        "request_body_params": [
+            "edad_maxima",
+            "edad_minima",
+            "codigoPostal",
+            "municipio",
+            "provincia",
+            "estatura_maxima",
+            "estatura_minima",
+            "peso_maximo",
+            "peso_minimo",
+            "email",
+            "colorPelo",
+            "colorOjo",
+            "genero"
+        ]
+    },
+    "update": {
+        "route": "/fichasdepreferencias/$fichaID",
+        "method": "PUT",
+        "sql": "UPDATE fichasDePreferencias SET edad_maxima = $edad_maxima, edad_minima = $edad_minima, codigoPostal = $codigoPostal, municipio = $municipio, provincia = $provincia, estatura_maxima = $estatura_maxima, estatura_minima = $estatura_minima, peso_maximo = $peso_maximo, peso_minimo = $peso_minimo, email = $email, colorPelo = $colorPelo, colorOjo = $colorOjo, genero = $genero WHERE fichaID = $fichaID",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Updates an existing entry in 'fichasDePreferencias' by its primary key",
+        "request_body_params": [
+            "edad_maxima",
+            "edad_minima",
+            "codigoPostal",
+            "municipio",
+            "provincia",
+            "estatura_maxima",
+            "estatura_minima",
+            "peso_maximo",
+            "peso_minimo",
+            "email",
+            "colorPelo",
+            "colorOjo",
+            "genero"
+        ]
+    },
+    "delete": {
+        "route": "/fichasdepreferencias/$fichaID",
+        "method": "DELETE",
+        "sql": "DELETE FROM fichasDePreferencias WHERE fichaID = $fichaID",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Deletes an existing entry in 'fichasDePreferencias' by its primary key"
+    }
+}

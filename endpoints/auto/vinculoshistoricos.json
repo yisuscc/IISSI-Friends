@@ -1,0 +1,12 @@
+{
+    "getAll": {
+        "route": "/vinculoshistoricos",
+        "method": "GET",
+        "sql": "SELECT * FROM vinculosHistoricos",
+        "auth_required": false,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Gets all vinculosHistoricos"
+    }
+}

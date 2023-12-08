@@ -1,0 +1,64 @@
+{
+    "getAll": {
+        "route": "/ubicaciones",
+        "method": "GET",
+        "sql": "SELECT * FROM ubicaciones",
+        "auth_required": false,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Gets all ubicaciones"
+    },
+    "getById": {
+        "route": "/ubicaciones/$ubicacionID",
+        "method": "GET",
+        "sql": "SELECT * FROM ubicaciones WHERE ubicacionID = $ubicacionID",
+        "auth_required": false,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Gets an entry from 'ubicaciones' by its primary key"
+    },
+    "create": {
+        "route": "/ubicaciones",
+        "method": "POST",
+        "sql": "INSERT INTO ubicaciones(email, codigoPostal, municipio, provincia) VALUES ($email, $codigoPostal, $municipio, $provincia)",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Creates a new entry in 'ubicaciones'",
+        "request_body_params": [
+            "email",
+            "codigoPostal",
+            "municipio",
+            "provincia"
+        ]
+    },
+    "update": {
+        "route": "/ubicaciones/$ubicacionID",
+        "method": "PUT",
+        "sql": "UPDATE ubicaciones SET email = $email, codigoPostal = $codigoPostal, municipio = $municipio, provincia = $provincia WHERE ubicacionID = $ubicacionID",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Updates an existing entry in 'ubicaciones' by its primary key",
+        "request_body_params": [
+            "email",
+            "codigoPostal",
+            "municipio",
+            "provincia"
+        ]
+    },
+    "delete": {
+        "route": "/ubicaciones/$ubicacionID",
+        "method": "DELETE",
+        "sql": "DELETE FROM ubicaciones WHERE ubicacionID = $ubicacionID",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Deletes an existing entry in 'ubicaciones' by its primary key"
+    }
+}

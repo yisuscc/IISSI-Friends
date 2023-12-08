@@ -1,0 +1,64 @@
+{
+    "getAll": {
+        "route": "/conversaciones",
+        "method": "GET",
+        "sql": "SELECT * FROM conversaciones",
+        "auth_required": false,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Gets all conversaciones"
+    },
+    "getById": {
+        "route": "/conversaciones/$conversacionID",
+        "method": "GET",
+        "sql": "SELECT * FROM conversaciones WHERE conversacionID = $conversacionID",
+        "auth_required": false,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Gets an entry from 'conversaciones' by its primary key"
+    },
+    "create": {
+        "route": "/conversaciones",
+        "method": "POST",
+        "sql": "INSERT INTO conversaciones(vinculoID, fecha_inicio, fecha_fin, new_message) VALUES ($vinculoID, $fecha_inicio, $fecha_fin, $new_message)",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Creates a new entry in 'conversaciones'",
+        "request_body_params": [
+            "vinculoID",
+            "fecha_inicio",
+            "fecha_fin",
+            "new_message"
+        ]
+    },
+    "update": {
+        "route": "/conversaciones/$conversacionID",
+        "method": "PUT",
+        "sql": "UPDATE conversaciones SET vinculoID = $vinculoID, fecha_inicio = $fecha_inicio, fecha_fin = $fecha_fin, new_message = $new_message WHERE conversacionID = $conversacionID",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Updates an existing entry in 'conversaciones' by its primary key",
+        "request_body_params": [
+            "vinculoID",
+            "fecha_inicio",
+            "fecha_fin",
+            "new_message"
+        ]
+    },
+    "delete": {
+        "route": "/conversaciones/$conversacionID",
+        "method": "DELETE",
+        "sql": "DELETE FROM conversaciones WHERE conversacionID = $conversacionID",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Deletes an existing entry in 'conversaciones' by its primary key"
+    }
+}

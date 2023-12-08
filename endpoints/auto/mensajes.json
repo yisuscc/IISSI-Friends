@@ -1,0 +1,62 @@
+{
+    "getAll": {
+        "route": "/mensajes",
+        "method": "GET",
+        "sql": "SELECT * FROM mensajes",
+        "auth_required": false,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Gets all mensajes"
+    },
+    "getById": {
+        "route": "/mensajes/$mensajeID",
+        "method": "GET",
+        "sql": "SELECT * FROM mensajes WHERE mensajeID = $mensajeID",
+        "auth_required": false,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Gets an entry from 'mensajes' by its primary key"
+    },
+    "create": {
+        "route": "/mensajes",
+        "method": "POST",
+        "sql": "INSERT INTO mensajes(conversacionID, instante, texto) VALUES ($conversacionID, $instante, $texto)",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Creates a new entry in 'mensajes'",
+        "request_body_params": [
+            "conversacionID",
+            "instante",
+            "texto"
+        ]
+    },
+    "update": {
+        "route": "/mensajes/$mensajeID",
+        "method": "PUT",
+        "sql": "UPDATE mensajes SET conversacionID = $conversacionID, instante = $instante, texto = $texto WHERE mensajeID = $mensajeID",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Updates an existing entry in 'mensajes' by its primary key",
+        "request_body_params": [
+            "conversacionID",
+            "instante",
+            "texto"
+        ]
+    },
+    "delete": {
+        "route": "/mensajes/$mensajeID",
+        "method": "DELETE",
+        "sql": "DELETE FROM mensajes WHERE mensajeID = $mensajeID",
+        "auth_required": true,
+        "allowed_roles": [
+            "*"
+        ],
+        "description": "Deletes an existing entry in 'mensajes' by its primary key"
+    }
+}

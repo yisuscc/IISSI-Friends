@@ -1,0 +1,129 @@
+@BASE = http://127.0.0.1:8080/api/v1
+
+POST {{BASE}}/register
+Content-Type: application/json
+
+{
+    "nombre":"Dwight Schrute",
+    "colorOjo":"castaños",
+    "email":"alvarilloflow@fichas.com",
+    "password":" 123445",
+    "fechaNacimiento":"1970-01-01",
+    "genero":"masculino"
+}
+###
+POST {{BASE}}/register
+Content-Type: application/json
+
+{
+    "nombre":"Jim Harper",
+    "colorOjo":"castaños",
+    "email":"jimDM@fichas.com",
+    "password":" 123445",
+    "fechaNacimiento":"1980-01-01",
+    "genero":"masculino"
+}
+### 
+# @name login1
+POST {{BASE}}/login
+Content-Type: application/json
+
+{
+   "email":"alvarilloflow@fichas.com",
+    "password":" 123445"
+}
+
+###  registrar una ficha de preferencias
+POST {{BASE}}/fichasDePreferencias
+Content-Type: application/json
+TOKEN: {{login1.response.body.sessionToken}}
+
+{
+    "edad_maxima":"23",
+    "edad_minima":"21",
+    "codigoPostal":"23740",
+    "municipio":"Andújar",
+    "provincia":"Jaén",
+    "estatura_maxima":"178",
+    "estatura_minima":"170",
+    "peso_maximo":"80",
+    "peso_minimo":"50",
+    "email":"alvarilloflow@fichas.com",
+    "colorPelo":"negro",
+    "colorOjo":"negro",
+    "genero":"masculino"
+}
+###
+POST {{BASE}}/fichasDePreferencias
+Content-Type: application/json
+TOKEN: {{login1.response.body.sessionToken}}
+
+{
+    "edad_maxima":"34",
+    "edad_minima":"21",
+    "codigoPostal":"23740",
+    "municipio":"Andújar",
+    "provincia":"Jaén",
+    "estatura_maxima":"178",
+    "estatura_minima":"170",
+    "peso_maximo":"80",
+    "peso_minimo":"50",
+    "email":"jimDM@fichas.com",
+    "colorPelo":"negro",
+    "colorOjo":"negro",
+    "genero":"masculino"
+}
+###  registrar una aficion
+POST {{BASE}}/aficiones
+Content-Type: application/json
+TOKEN: {{login1.response.body.sessionToken}}
+
+{
+    "aficionID ":"23", 
+    "aficion":"gelatina"
+}
+
+###  registrar una relación entre aficion y ficha
+POST {{BASE}}/aficiones_preferidas
+Content-Type: application/json
+TOKEN: {{login1.response.body.sessionToken}}
+
+{
+    "aficionID ":"23", 
+    "fichaID":"2"
+}
+
+### modificar ficha de preferencias
+PUT {{BASE}}/fichasDePreferencias/0
+Content-Type: application/json
+TOKEN: {{login1.response.body.sessionToken}}
+
+{
+    
+    "edad_maxima":"20",
+    "edad_minima":"19",
+    "codigoPostal":"23740",
+    "municipio":"Andújar",
+    "provincia":"Jaén",
+    "estatura_maxima":"175",
+    "estatura_minima":"170",
+    "peso_maximo":"80",
+    "peso_minimo":"50",
+    "email":"alvarilloflow@fichas.com",
+    "colorPelo":"negro",
+    "colorOjo":"negro",
+    "genero":"masculino"
+}
+
+
+### borrar a un usuario con ficha de preferencias
+DELETE {{BASE}}/usuarios/alvarilloflow@fichas.com
+TOKEN: {{login1.response.body.sessionToken}}
+
+### borrar una ficha de preferencias con aficiones
+DELETE {{BASE}}/fichasDePreferencias
+TOKEN: {{login1.response.body.sessionToken}}
+
+### borrar ficha que no tiene aficiones vinculadas
+DELETE {{BASE}}/fichasDePreferencias/13
+TOKEN: {{login1.response.body.sessionToken}}
